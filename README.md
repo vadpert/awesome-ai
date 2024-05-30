@@ -6,5 +6,15 @@
 - [Reinforcement Learning](#Reinforcement-Learning)
 
 ## Reinforcement Learning
+
+### Value Based
+
+### Policy Based
+
+### Actor/Critic
+
+### Model Based
+
+### Other
 - [Quantified Self](http://quantifiedself.com/) - Official website.
 
