@@ -9,7 +9,12 @@
 - [Reinforcement Learning](#Reinforcement-Learning)
 - 
 
+
+
+-----------------------------
 ## Imitation Learning (IL)
+
+-----------------------------
 
 ## Reinforcement Learning (RL)
 
@@ -24,12 +29,23 @@
 ### Transformer Based
 
 ### Other
-- [Quantified Self](http://quantifiedself.com/) - Official website.
 
 
+
+
+-----------------------------
 ## Traditional AI
 
 ### Classification
 - [Quantified Self](http://quantifiedself.com/) - Official website.
 
 ### Clustering
+
+
+-----------------------------
+
+## Probability Theory
+- [Multi-armed bandit](http://www.com/) - Official website.
+
+
+
