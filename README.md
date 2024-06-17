@@ -74,12 +74,12 @@
 
 1. *** Autoencoders
 1. *** Recurrent Neural Networks (RNNs)
-2. *** Transformers
+1. *** Transformers
 1. Deep Belief Network
-2. Restricted Boltzmann Machine (RBM)
+1. Restricted Boltzmann Machine (RBM)
 1. Hierarchical Temporal Memory (HTM)
-2. Convolutional Neural Networks (CNNs)
-
+1. Convolutional Neural Networks (CNN)
+1. Long Short Term Memory (LSTM)
 
 -----------------------------
 
