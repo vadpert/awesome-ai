@@ -20,6 +20,7 @@
 
 (Reinforcement Learning: An Introduction 2018) [https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf]
 
+### Contextual Bandits (one step RL)
 
 
 ### Value Based
@@ -44,10 +45,11 @@
 1. Linear Regression
 
 ### Classification (discrete variables)
-1. *** Random Forest 
-1. *** Gradient Boosting (e.g., XGBoost, LightGBM)
 1. *** Decision Trees
-2. *** Support Vector Machines (SVMs)
+1. *** Random Forest
+1. *** XGBoost - Gradient Boosting
+2. *** LightGBM - Gradient Boosting
+3. *** Support Vector Machines (SVMs)
  
 
 ### Binary Classification
