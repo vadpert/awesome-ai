@@ -40,7 +40,10 @@
 -----------------------------
 ## Traditional AI
 
-### Classification
+### Regression (continous variables)
+1. Linear Regression
+
+### Classification (discrete variables)
 1. *** Random Forest 
 1. *** Gradient Boosting (e.g., XGBoost, LightGBM)
 1. *** Decision Trees
