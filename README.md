@@ -9,19 +9,27 @@
 - [Reinforcement Learning](#Reinforcement-Learning)
 - 
 
+## People
+Noam Brown
+Ilge Akkaya
+Hunter Lightman
+
 -----------------------------
 ## Generative AI
 
 ###
 - https://press.airstreet.com/
+- https://paperswithcode.com/sota
+- https://research.google/blog
 
-- 
 
 ### Overview
 [State of AI Report - 2024 ONLINE](https://docs.google.com/presentation/d/1GmZmoWOa2O92BPrncRcTKa15xvQGhq7g4I4hJSNlC0M/edit#slide=id.g3058058dd40_3_39)
 
 ### RAG
 - Anthropic solved this using ‘contextual embeddings’, where a prompt instructs the model to generate text explaining the context of each chunk in the document
+- prompt https://github.com/mlbrnm/contextualretrieval/blob/main/contextgeneration.py
+- 
 
 ### Notes
 - Genie (winner of a Best Paper award at ICML 2024)
@@ -52,6 +60,10 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 - https://arxiv.org/abs/2404.13050 (FlowMind) - JPM
 
 
+### Metrics
+- https://medium.com/data-science-at-microsoft/evaluating-llm-systems-metrics-challenges-and-best-practices-664ac25be7e5
+
+
 ## Image Generation
 - https://blackforestlabs.io/flux-1/
 
@@ -65,6 +77,9 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 ## Reinforcement Learning (RL)
 
 (Reinforcement Learning: An Introduction 2018) [https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf]
+
+deep reinforcement learning (RL)
+Monte Carlo tree search
 
 ### Contextual Bandits (one step RL)
 
