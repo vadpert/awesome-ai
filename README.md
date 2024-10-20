@@ -170,8 +170,7 @@ Monte Carlo tree search
 ## Video / Image Generation
 1. https://civitai.com/
 2. Flux
-3. https://huggingface.co/enhanceaiteam/Flux-uncensored?not-for-all-audiences=true
-4. https://huggingface.co/enhanceaiteam/Flux-Uncensored-V2?not-for-all-audiences=true
+3. https://huggingface.co/enhanceaiteam/
 
 
 
