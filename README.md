@@ -14,6 +14,8 @@ Noam Brown
 Ilge Akkaya
 Hunter Lightman
 
+https://x.com/aimodelsfyi?ref_src=aimodelsfyi
+
 -----------------------------
 ## Generative AI
 
@@ -164,4 +166,12 @@ Monte Carlo tree search
 1. https://github.com/openvenues/libpostal
 
 2. 
+
+## Video / Image Generation
+1. https://civitai.com/
+2. Flux
+3. https://huggingface.co/enhanceaiteam/Flux-uncensored?not-for-all-audiences=true
+4. https://huggingface.co/enhanceaiteam/Flux-Uncensored-V2?not-for-all-audiences=true
+
+
 
