@@ -165,6 +165,11 @@ Monte Carlo tree search
 # Location
 1. https://github.com/openvenues/libpostal
 
+
+
+# Agents
+1. CrewAI, Autogen, LangGraph, LlamaIndex Workflows, OpenAI Swarm, Vectara Agentic, Phi Agents, Haystack Agents
+https://aiagentsdirectory.com/landscape
 2. 
 
 ## Video / Image Generation
