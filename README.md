@@ -153,4 +153,15 @@ Monte Carlo tree search
 - [Multi-armed bandit](http://www.com/) - Official website.
 
 
+# Document Parsing
+1. https://github.com/Unstructured-IO/unstructured/blob/main/unstructured/partition/docx.py
+2. 
+
+# Legal entities
+1. https://www.gleif.org/en/about-lei/introducing-the-legal-entity-identifier-lei
+
+# Location
+1. https://github.com/openvenues/libpostal
+
+2. 
 
