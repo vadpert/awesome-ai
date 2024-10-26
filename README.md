@@ -25,6 +25,9 @@ https://x.com/aimodelsfyi?ref_src=aimodelsfyi
 - https://research.google/blog
 
 
+### Platform Experience
+- https://www.anthropic.com/news/analysis-tool
+
 
 ### Overview
 [State of AI Report - 2024 ONLINE](https://docs.google.com/presentation/d/1GmZmoWOa2O92BPrncRcTKa15xvQGhq7g4I4hJSNlC0M/edit#slide=id.g3058058dd40_3_39)
@@ -36,6 +39,8 @@ https://x.com/aimodelsfyi?ref_src=aimodelsfyi
 ### RAG
 - Anthropic solved this using ‘contextual embeddings’, where a prompt instructs the model to generate text explaining the context of each chunk in the document
 - prompt https://github.com/mlbrnm/contextualretrieval/blob/main/contextgeneration.py
+- https://www.anthropic.com/news/contextual-retrieval
+
 - 
 
 ### Notes
