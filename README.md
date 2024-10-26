@@ -32,6 +32,8 @@ https://x.com/aimodelsfyi?ref_src=aimodelsfyi
 ### Overview
 [State of AI Report - 2024 ONLINE](https://docs.google.com/presentation/d/1GmZmoWOa2O92BPrncRcTKa15xvQGhq7g4I4hJSNlC0M/edit#slide=id.g3058058dd40_3_39)
 
+### Prompt Engineering
+- https://www.reddit.com/r/ClaudeAI/comments/1e39tvj/sonnet_35_coding_system_prompt_v2_with_explainer/
 
 ### Transformers
 - https://towardsdatascience.com/understanding-llms-from-scratch-using-middle-school-math-e602d27ec876
