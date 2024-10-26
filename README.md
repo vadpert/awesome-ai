@@ -180,7 +180,7 @@ https://aiagentsdirectory.com/landscape
 2. 
 
 ## Video / Image Generation / Art
-1. https://civitai.com/
+1. https://civitai.com/tag/base%20model
 2. Flux
 3. https://huggingface.co/enhanceaiteam/
 
