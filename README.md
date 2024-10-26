@@ -25,8 +25,13 @@ https://x.com/aimodelsfyi?ref_src=aimodelsfyi
 - https://research.google/blog
 
 
+
 ### Overview
 [State of AI Report - 2024 ONLINE](https://docs.google.com/presentation/d/1GmZmoWOa2O92BPrncRcTKa15xvQGhq7g4I4hJSNlC0M/edit#slide=id.g3058058dd40_3_39)
+
+
+### Transformers
+- https://towardsdatascience.com/understanding-llms-from-scratch-using-middle-school-math-e602d27ec876
 
 ### RAG
 - Anthropic solved this using ‘contextual embeddings’, where a prompt instructs the model to generate text explaining the context of each chunk in the document
@@ -60,6 +65,7 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 ### Enterprise Automation (RPA) Robotic Process Automation
 - https://arxiv.org/abs/2405.03710 (ECLAIR) - ECLAIR
 - https://arxiv.org/abs/2404.13050 (FlowMind) - JPM
+- 
 
 
 ### Metrics
@@ -155,6 +161,7 @@ Monte Carlo tree search
 - [Multi-armed bandit](http://www.com/) - Official website.
 
 
+
 # Document Parsing
 1. https://github.com/Unstructured-IO/unstructured/blob/main/unstructured/partition/docx.py
 2. 
@@ -178,4 +185,6 @@ https://aiagentsdirectory.com/landscape
 3. https://huggingface.co/enhanceaiteam/
 
 
+## Rough Path Signatures
+1. 
 
