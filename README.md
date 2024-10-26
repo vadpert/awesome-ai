@@ -67,6 +67,10 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 - https://arxiv.org/abs/2404.13050 (FlowMind) - JPM
 - 
 
+### Workflow 
+- https://excalidraw.com/
+
+- 
 
 ### Metrics
 - https://medium.com/data-science-at-microsoft/evaluating-llm-systems-metrics-challenges-and-best-practices-664ac25be7e5
@@ -171,7 +175,6 @@ Monte Carlo tree search
 
 # Location
 1. https://github.com/openvenues/libpostal
-
 
 
 # Agents
