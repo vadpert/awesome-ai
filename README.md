@@ -179,7 +179,7 @@ Monte Carlo tree search
 https://aiagentsdirectory.com/landscape
 2. 
 
-## Video / Image Generation
+## Video / Image Generation / Art
 1. https://civitai.com/
 2. Flux
 3. https://huggingface.co/enhanceaiteam/
