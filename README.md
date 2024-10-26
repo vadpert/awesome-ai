@@ -34,6 +34,9 @@ https://x.com/aimodelsfyi?ref_src=aimodelsfyi
 
 ### Prompt Engineering
 - https://www.reddit.com/r/ClaudeAI/comments/1e39tvj/sonnet_35_coding_system_prompt_v2_with_explainer/
+- https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/use-xml-tags
+
+- 
 
 ### Transformers
 - https://towardsdatascience.com/understanding-llms-from-scratch-using-middle-school-math-e602d27ec876
