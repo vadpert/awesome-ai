@@ -46,7 +46,6 @@ https://x.com/aimodelsfyi?ref_src=aimodelsfyi
 - prompt https://github.com/mlbrnm/contextualretrieval/blob/main/contextgeneration.py
 - https://www.anthropic.com/news/contextual-retrieval
 
-- 
 
 ### Notes
 - Genie (winner of a Best Paper award at ICML 2024)
@@ -85,6 +84,9 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 ### Metrics
 - https://medium.com/data-science-at-microsoft/evaluating-llm-systems-metrics-challenges-and-best-practices-664ac25be7e5
 
+### OCR
+- https://microsoft.github.io/OmniParser
+- 
 
 ## Image Generation
 - https://blackforestlabs.io/flux-1/
