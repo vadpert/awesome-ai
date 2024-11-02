@@ -85,13 +85,30 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 - https://medium.com/data-science-at-microsoft/evaluating-llm-systems-metrics-challenges-and-best-practices-664ac25be7e5
 
 ### OCR
-- https://microsoft.github.io/OmniParser
+- https://microsoft.github.io/OmniParser - screen parsing
+- https://yolov8.com/ - object detection / vision model
+- 
 - 
 
 ## Image Generation
 - https://blackforestlabs.io/flux-1/
 
-- 
+## Distance / Text Matching
+- Levenshetin Distance - measure the edit distance between strings
+- Jaccard Similarity - compare the overlap of characters and tokens
+- Cosine Similarity - convert names to vectors and measure cosine distance of vectors
+
+- Named Entity Recognition (NER)
+- FuzzyWuzzy / RapidFuzz
+- Word2Vec, GloVe, FastText
+- Latent Dirichlet Allocation (LDA)
+- Non-Negative Matrix Factorization (NMF)
+- Siamese Neural Networks
+- Locality Sensitive Hashing (LSH) - datasketch / falconn
+
+- Faiss (Facebook AI Similarity Search)
+- Annoy (Approximate Nearest Neighbors Oh Yeah)
+- NMSLIB (Non-Metric Space Library)
 
 -----------------------------
 ## Imitation Learning (IL)
