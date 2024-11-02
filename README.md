@@ -3,10 +3,6 @@
 > Carefully curated list of AI research
 
 ## Contents
-- [Reinforcement Learning](#Reinforcement-Learning)
-  - [Reinforcement Learning](#Reinforcement-Learning)
-  - [Reinforcement Learning](#Reinforcement-Learning)
-- [Reinforcement Learning](#Reinforcement-Learning)
 - 
 
 ## People
@@ -14,7 +10,7 @@ Noam Brown
 Ilge Akkaya
 Hunter Lightman
 
-https://x.com/aimodelsfyi?ref_src=aimodelsfyi
+https://x.com/aimodelsfyi
 
 -----------------------------
 ## Generative AI
