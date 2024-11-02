@@ -84,10 +84,6 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 - https://microsoft.github.io/OmniParser - screen parsing
 - https://yolov8.com/ - object detection / vision model
 - 
-- 
-
-## Image Generation
-- https://blackforestlabs.io/flux-1/
 
 ## Distance / Text Matching
 - Levenshetin Distance - measure the edit distance between strings
@@ -209,8 +205,8 @@ https://aiagentsdirectory.com/landscape
 
 ## Video / Image Generation / Art
 1. https://civitai.com/tag/base%20model
-2. Flux
-3. https://huggingface.co/enhanceaiteam/
+1. https://huggingface.co/enhanceaiteam/
+1. Flux Model - https://blackforestlabs.io/flux-1/
 
 
 ## Rough Path Signatures
