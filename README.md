@@ -37,6 +37,10 @@ https://x.com/aimodelsfyi
 ### Transformers
 - https://towardsdatascience.com/understanding-llms-from-scratch-using-middle-school-math-e602d27ec876
 
+### LLM Papers
+- Llama3 Herd of Models - https://arxiv.org/pdf/2407.21783
+- 
+
 ### RAG
 - Anthropic solved this using ‘contextual embeddings’, where a prompt instructs the model to generate text explaining the context of each chunk in the document
 - prompt https://github.com/mlbrnm/contextualretrieval/blob/main/contextgeneration.py
