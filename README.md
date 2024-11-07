@@ -182,7 +182,8 @@ Monte Carlo tree search
 ## Process / Workflow
 - (UX) https://excalidraw.com/
 - (Amazon State Language) https://states-language.net/
-- 
+- Function as a Service (FaaS) paradigm
+
 
 ### Enterprise Automation (RPA) Robotic Process Automation
 - https://arxiv.org/abs/2405.03710 (ECLAIR) - ECLAIR
