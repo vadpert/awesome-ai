@@ -69,18 +69,6 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 
 
 
-
-
-### Enterprise Automation (RPA) Robotic Process Automation
-- https://arxiv.org/abs/2405.03710 (ECLAIR) - ECLAIR
-- https://arxiv.org/abs/2404.13050 (FlowMind) - JPM
-- 
-
-### Workflow 
-- https://excalidraw.com/
-
-- 
-
 ### Metrics
 - https://medium.com/data-science-at-microsoft/evaluating-llm-systems-metrics-challenges-and-best-practices-664ac25be7e5
 
@@ -188,6 +176,18 @@ Monte Carlo tree search
 
 ## Probability Theory
 - [Multi-armed bandit](http://www.com/) - Official website.
+
+
+
+## Process / Workflow
+- (UX) https://excalidraw.com/
+- (Amazon State Language) https://states-language.net/
+- 
+
+### Enterprise Automation (RPA) Robotic Process Automation
+- https://arxiv.org/abs/2405.03710 (ECLAIR) - ECLAIR
+- https://arxiv.org/abs/2404.13050 (FlowMind) - JPM
+- 
 
 
 
