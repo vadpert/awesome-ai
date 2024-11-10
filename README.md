@@ -206,7 +206,7 @@ Monte Carlo tree search
 # Agents
 1. CrewAI, Autogen, LangGraph, LlamaIndex Workflows, OpenAI Swarm, Vectara Agentic, Phi Agents, Haystack Agents
 https://aiagentsdirectory.com/landscape
-2. 
+2. Microsoft Magentic One - https://github.com/microsoft/autogen/blob/main/python/packages/autogen-magentic-one/src/autogen_magentic_one/agents/orchestrator_prompts.py
 
 ## Video / Image Generation / Art
 1. https://civitai.com/tag/base%20model
