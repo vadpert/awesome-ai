@@ -215,5 +215,12 @@ https://aiagentsdirectory.com/landscape
 
 
 ## Rough Path Signatures
-1. 
+
+
+# Graph
+1. Leiden Algorith
+
+2. Laplacian / Heat Diffusion Graphs
+
+
 
