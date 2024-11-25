@@ -69,6 +69,7 @@ https://x.com/aimodelsfyi
 ## Features
 1. Router		-	Uses the optillm-bert-uncased model to route requests to different approaches based on the user prompt
 1. Chain-of-Code		-	Implements a chain of code approach that combines CoT with code execution and LLM based code simulation
+   1. Chain of Code: Reasoning with a Language Model-Augmented Code Emulator - https://arxiv.org/pdf/2312.04474
 1. Memory		-	Implements a short term memory layer, enables you to use unbounded context length with any LLM
 1. Privacy		-	Anonymize PII data in request and deanonymize it back to original value in response
 1. Read URLs		-	Reads all URLs found in the request, fetches the content at the URL and adds it to the context
