@@ -46,6 +46,35 @@ https://x.com/aimodelsfyi
 - prompt https://github.com/mlbrnm/contextualretrieval/blob/main/contextgeneration.py
 - https://www.anthropic.com/news/contextual-retrieval
 
+## Frameworks
+- Optimizing inference proxy for LLMs - https://github.com/codelion/optillm
+
+
+## Techniques
+1. CoT with Reflection		-	Implements chain-of-thought reasoning with <thinking>, <reflection> and <output> sections
+1. PlanSearch		-	Implements a search algorithm over candidate plans for solving a problem in natural language
+1. ReRead		-	Implements rereading to improve reasoning by processing queries twice
+1. Self-Consistency		-	Implements an advanced self-consistency method
+1. Z3 Solver		-	Utilizes the Z3 theorem prover for logical reasoning
+1. R* Algorithm		-	Implements the R* algorithm for problem-solving
+1. LEAP		-	Learns task-specific principles from few shot examples
+1. Round Trip Optimization		-	Optimizes responses through a round-trip process
+1. Best of N Sampling		-	Generates multiple responses and selects the best one
+1. Mixture of Agents		-	Combines responses from multiple critiques
+1. Monte Carlo Tree Search		-	Uses MCTS for decision-making in chat responses
+1. PV Game		-	Applies a prover-verifier game approach at inference time
+1. CoT Decoding		- proxy	Implements chain-of-thought decoding to elicit reasoning without explicit prompting
+1. Entropy Decoding	-	Implements adaptive sampling based on the uncertainty of tokens during generation
+
+## Features
+1. Router		-	Uses the optillm-bert-uncased model to route requests to different approaches based on the user prompt
+1. Chain-of-Code		-	Implements a chain of code approach that combines CoT with code execution and LLM based code simulation
+1. Memory		-	Implements a short term memory layer, enables you to use unbounded context length with any LLM
+1. Privacy		-	Anonymize PII data in request and deanonymize it back to original value in response
+1. Read URLs		-	Reads all URLs found in the request, fetches the content at the URL and adds it to the context
+1. Execute Code		-	Enables use of code interpreter to execute python code in requests and LLM generated responses
+
+
 
 ### Notes
 - Genie (winner of a Best Paper award at ICML 2024)
@@ -67,16 +96,19 @@ Source: https://arxiv.org/abs/2405.12250 (Transformer is secretly linear)
 Google has introduced a popular new method for decoding intermediate neurons. Patchscopes takes a hidden representation for LLM and ‘patching’ it to a different prompt. This prompt is used to generate a description or answer a question, revealing the encoded information.
 
 
-
-
+-------------------------------------------
 ### Metrics
 - https://medium.com/data-science-at-microsoft/evaluating-llm-systems-metrics-challenges-and-best-practices-664ac25be7e5
 
+
+
+-------------------------------------------
 ### OCR
 - https://microsoft.github.io/OmniParser - screen parsing
 - https://yolov8.com/ - object detection / vision model
-- 
 
+
+-------------------------------------------
 ## Distance / Text Matching
 - Levenshetin Distance - measure the edit distance between strings
 - Jaccard Similarity - compare the overlap of characters and tokens
@@ -94,37 +126,23 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 - Annoy (Approximate Nearest Neighbors Oh Yeah)
 - NMSLIB (Non-Metric Space Library)
 
------------------------------
-## Imitation Learning (IL)
 
------------------------------
-
-## Reinforcement Learning (RL)
-
-(Reinforcement Learning: An Introduction 2018) [https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf]
-
-deep reinforcement learning (RL)
-Monte Carlo tree search
-
-### Contextual Bandits (one step RL)
-
-
-### Value Based
-
-### Policy Based
-
-### Actor/Critic
-
-### Model Based
-
-### Transformer Based
-
-### Other
+-------------------------------------------
+## Reinforcement Learning
+1. Imitation Learning (IL)
+1. (Reinforcement Learning: An Introduction 2018) [https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf]
+1. deep reinforcement learning (RL)
+1. Monte Carlo tree search
+1.  Contextual Bandits (one step RL)
+1.  Value Based
+1. Policy Based
+1.  Actor/Critic
+1.  Model Based
+1.  Transformer Based
 
 
 
-
------------------------------
+-------------------------------------------
 ## Traditional AI
 
 ### Regression (continous variables)
