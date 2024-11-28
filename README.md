@@ -36,6 +36,9 @@ https://x.com/aimodelsfyi
 - Ask Me Anything (AMA) Prompting
 - Writer Prompting Strategies - https://dev.writer.com/home/prompting
 
+#### Legal
+- https://github.com/HazyResearch/legalbench/blob/main/tasks/definition_extraction/README.md
+- Contract Understanding Atticus Dataset (CUAD) - https://www.atticusprojectai.org/cuad
 
 
 ### Transformers
@@ -164,6 +167,9 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 1.  Actor/Critic
 1.  Model Based
 1.  Transformer Based
+
+- http://incompleteideas.net/book/RLbook2020.pdf
+- https://huggingface.co/learn/deep-rl-course/en/unit0/introduction
 
 
 
