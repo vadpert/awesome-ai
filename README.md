@@ -12,6 +12,20 @@ Hunter Lightman
 
 https://x.com/aimodelsfyi
 
+
+
+## Eliza
+- Cognitive Architecture
+- structured action space
+- language-based general intelligence
+- control flows
+- grounding to existing knowledge or external observations
+- cognitive language agents
+
+- 
+
+
+
 -----------------------------
 ## Generative AI
 
