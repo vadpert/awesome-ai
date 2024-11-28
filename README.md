@@ -31,8 +31,12 @@ https://x.com/aimodelsfyi
 ### Prompt Engineering
 - https://www.reddit.com/r/ClaudeAI/comments/1e39tvj/sonnet_35_coding_system_prompt_v2_with_explainer/
 - https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/use-xml-tags
+- https://learnprompting.org/docs/introduction
+- Prompt Ensembling - https://learnprompting.org/docs/reliability/ensembling
+- Ask Me Anything (AMA) Prompting
+- Writer Prompting Strategies - https://dev.writer.com/home/prompting
 
-- 
+
 
 ### Transformers
 - https://towardsdatascience.com/understanding-llms-from-scratch-using-middle-school-math-e602d27ec876
