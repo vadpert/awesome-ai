@@ -13,16 +13,25 @@ Hunter Lightman
 https://x.com/aimodelsfyi
 
 
+## History of AI
+- https://en.wikipedia.org/wiki/Alonzo_Church
+- Church–Turing thesis - https://plato.stanford.edu/entries/church-turing/
+- https://en.wikipedia.org/wiki/Halting_problem
+-  Entscheidungsproblem ("decision problem")
+
 
 ## Eliza
+-  Cognitive Architectures for Language Agents - https://arxiv.org/pdf/2309.02427
 - Cognitive Architecture
 - structured action space
 - language-based general intelligence
 - control flows
 - grounding to existing knowledge or external observations
 - cognitive language agents
-
-- 
+- (memory, action, and decision-making),
+   - information storage (divided into working and long-term memories)
+   - their action space (divided into internal and external actions)
+   - decision-making procedure (which is structured as an interactive loop with planning and execution)
 
 
 
