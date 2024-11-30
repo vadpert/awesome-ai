@@ -35,8 +35,22 @@ https://x.com/aimodelsfyi
    - information storage (divided into working and long-term memories)
    - their action space (divided into internal and external actions)
    - decision-making procedure (which is structured as an interactive loop with planning and execution)
-
-
+   - information retrieval: rule-based, sparse, or dense retrieval
+-  Generative Agents
+   - (Park et al., 2023) are language agents grounded to a sandbox game affording interaction
+ with the environment and other agents. Its action space also has all four kinds of actions: grounding, reasoning,
+ retrieval, and learning. Each agent has a long-term episodic memory that stores events in a list. These agents
+ use retrieval and reasoning to generate reflections on their episodic memory (e.g., “I like to ski now.”) which
+ are then written to long-term semantic memory. During decision-making, it retrieves relevant reflections from
+ semantic memory, then reasons to make a high-level plan of the day. While executing the plan, the agent
+ receives a stream of grounding observations; it can reason over these to maintain or adjust the plan.
+   - recon learn episodic and long term memory how to solve specific accounts
+- Standard Interaction
+   - agents should be structured and modular
+   -  Memory, Action, Agent
+   - maintaining a single company-wide “language agent library” would reduce technical debt (Sculley et al., 2014; Lwakatare et al., 2020) by facilitating testing and component re-use across individual agent deployments.
+   -  adaptively allocate computation (Russek et al., 2022; Lieder and Griffiths, 2020; Callaway et al., 2022; Gershman et al., 2015).
+   -  
 
 -----------------------------
 ## Generative AI
@@ -67,6 +81,23 @@ https://x.com/aimodelsfyi
 |Self-Critique|  |
 |Socratic Models|  |
 |Ask Me Anything (AMA) Prompting| | 
+
+
+### Retrieval Techniques
+
+| Type | Notes |
+|-|-|
+|Retrieval Distillion| |
+
+
+### Reasoning Techniques
+- classical planning algorithms:
+- Tree of Thoughts (Yao et al., 2023)
+- RAP (Hao et al., 2023)
+- Monte Carlo Tree Search (MCTS; Browne et al., 2012)
+- Breadth First Search | Depth First Search
+- implementing tree search to mitigate myopia induced by autoregressive generation (Yao et al., 2023; Hao et al., 2023).
+
 
 #### Legal
 - https://github.com/HazyResearch/legalbench/blob/main/tasks/definition_extraction/README.md
