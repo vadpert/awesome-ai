@@ -18,6 +18,9 @@ https://x.com/aimodelsfyi
 - Church–Turing thesis - https://plato.stanford.edu/entries/church-turing/
 - https://en.wikipedia.org/wiki/Halting_problem
 -  Entscheidungsproblem ("decision problem")
+-  Newell, Allen, and Herbert A. Simon, Human Problem Solving, Prentice-Hall, Englewood Cliffs, NJ., 1972.
+
+
 
 
 ## Eliza
@@ -58,6 +61,13 @@ https://x.com/aimodelsfyi
 - Prompt Ensembling - https://learnprompting.org/docs/reliability/ensembling
 - Ask Me Anything (AMA) Prompting
 - Writer Prompting Strategies - https://dev.writer.com/home/prompting
+- Socratic Models
+- Self-Critique
+
+|s|s|
+|-|-|
+|a|a|
+ 
 
 #### Legal
 - https://github.com/HazyResearch/legalbench/blob/main/tasks/definition_extraction/README.md
