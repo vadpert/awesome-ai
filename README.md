@@ -59,15 +59,14 @@ https://x.com/aimodelsfyi
 - https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/use-xml-tags
 - https://learnprompting.org/docs/introduction
 - Prompt Ensembling - https://learnprompting.org/docs/reliability/ensembling
-- Ask Me Anything (AMA) Prompting
 - Writer Prompting Strategies - https://dev.writer.com/home/prompting
-- Socratic Models
-- Self-Critique
 
-|s|s|
+
+| Type | Notes |
 |-|-|
-|a|a|
- 
+|Self-Critique|  |
+|Socratic Models|  |
+|Ask Me Anything (AMA) Prompting| | 
 
 #### Legal
 - https://github.com/HazyResearch/legalbench/blob/main/tasks/definition_extraction/README.md
