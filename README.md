@@ -85,20 +85,49 @@ https://x.com/aimodelsfyi
 |Ask Me Anything (AMA) Prompting| | 
 
 
-### Retrieval Techniques
+### Retrieval Techniques (RAG)
 
 | Type | Notes |
 |-|-|
 |Retrieval Distillion| |
+|Contextual Retrieval| https://www.anthropic.com/news/contextual-retrieval |
+
+
+- Anthropic solved this using ‘contextual embeddings’, where a prompt instructs the model to generate text explaining the context of each chunk in the document
+- prompt https://github.com/mlbrnm/contextualretrieval/blob/main/contextgeneration.py
+- ColPali: Efficient Document Retrieval with Vision Language Models - https://github.com/illuin-tech/colpali
+- 
+
 
 
 ### Reasoning Techniques
+- The Surprising Effectiveness of Test-Time Training for Abstract Reasoning - https://ekinakyurek.github.io/papers/ttt.pdf
 - classical planning algorithms:
 - Tree of Thoughts (Yao et al., 2023)
 - RAP (Hao et al., 2023)
 - Monte Carlo Tree Search (MCTS; Browne et al., 2012)
 - Breadth First Search | Depth First Search
 - implementing tree search to mitigate myopia induced by autoregressive generation (Yao et al., 2023; Hao et al., 2023).
+
+| Type | Notes |
+|-|-|
+| CoT with Reflection | Implements chain-of-thought reasoning with < thinking >, < reflection > and < output > sections |
+
+
+1. PlanSearch		-	Implements a search algorithm over candidate plans for solving a problem in natural language
+1. ReRead		-	Implements rereading to improve reasoning by processing queries twice
+1. Self-Consistency		-	Implements an advanced self-consistency method
+1. Z3 Solver		-	Utilizes the Z3 theorem prover for logical reasoning
+1. R* Algorithm		-	Implements the R* algorithm for problem-solving
+1. LEAP		-	Learns task-specific principles from few shot examples
+1. Round Trip Optimization		-	Optimizes responses through a round-trip process
+1. Best of N Sampling		-	Generates multiple responses and selects the best one
+1. Mixture of Agents		-	Combines responses from multiple critiques
+1. Monte Carlo Tree Search		-	Uses MCTS for decision-making in chat responses
+1. PV Game		-	Applies a prover-verifier game approach at inference time
+1. CoT Decoding		- proxy	Implements chain-of-thought decoding to elicit reasoning without explicit prompting
+1. Entropy Decoding	-	Implements adaptive sampling based on the uncertainty of tokens during generation
+
 
 
 #### Legal
@@ -113,30 +142,10 @@ https://x.com/aimodelsfyi
 - Llama3 Herd of Models - https://arxiv.org/pdf/2407.21783
 - 
 
-### RAG
-- Anthropic solved this using ‘contextual embeddings’, where a prompt instructs the model to generate text explaining the context of each chunk in the document
-- prompt https://github.com/mlbrnm/contextualretrieval/blob/main/contextgeneration.py
-- https://www.anthropic.com/news/contextual-retrieval
 
 ## Frameworks
 - Optimizing inference proxy for LLMs - https://github.com/codelion/optillm
 
-
-## Techniques
-1. CoT with Reflection		-	Implements chain-of-thought reasoning with < thinking >, < reflection > and < output > sections
-1. PlanSearch		-	Implements a search algorithm over candidate plans for solving a problem in natural language
-1. ReRead		-	Implements rereading to improve reasoning by processing queries twice
-1. Self-Consistency		-	Implements an advanced self-consistency method
-1. Z3 Solver		-	Utilizes the Z3 theorem prover for logical reasoning
-1. R* Algorithm		-	Implements the R* algorithm for problem-solving
-1. LEAP		-	Learns task-specific principles from few shot examples
-1. Round Trip Optimization		-	Optimizes responses through a round-trip process
-1. Best of N Sampling		-	Generates multiple responses and selects the best one
-1. Mixture of Agents		-	Combines responses from multiple critiques
-1. Monte Carlo Tree Search		-	Uses MCTS for decision-making in chat responses
-1. PV Game		-	Applies a prover-verifier game approach at inference time
-1. CoT Decoding		- proxy	Implements chain-of-thought decoding to elicit reasoning without explicit prompting
-1. Entropy Decoding	-	Implements adaptive sampling based on the uncertainty of tokens during generation
 
 ## Features
 1. Router		-	Uses the optillm-bert-uncased model to route requests to different approaches based on the user prompt
