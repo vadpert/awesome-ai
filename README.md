@@ -52,7 +52,11 @@ https://x.com/aimodelsfyi
    -  Memory, Action, Agent
    - maintaining a single company-wide “language agent library” would reduce technical debt (Sculley et al., 2014; Lwakatare et al., 2020) by facilitating testing and component re-use across individual agent deployments.
    -  adaptively allocate computation (Russek et al., 2022; Lieder and Griffiths, 2020; Callaway et al., 2022; Gershman et al., 2015).
-   -  
+- neuro symbolic AI
+   - facts: neuro / dat approximation (facts) - knowledge representation, logical reasoning, rule based inference
+   - symbolic (recursive logic) - creativity, generative, statistical predictions, natural interactions
+- Inductive reasoning
+- first-order logic (FOL) vs propositional logic
 
 -----------------------------
 ## Generative AI
