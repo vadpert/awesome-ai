@@ -23,8 +23,10 @@ https://x.com/aimodelsfyi
 
 
 
-## Eliza
+## Cognitive Architecture
 -  Cognitive Architectures for Language Agents - https://arxiv.org/pdf/2309.02427
+- Characterizing Technical Debt and Antipatterns in AI-Based Systems: A Systematic Mapping Study - https://arxiv.org/pdf/2103.09783
+
 - Cognitive Architecture
 - structured action space
 - language-based general intelligence
@@ -300,6 +302,7 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 ### Enterprise Automation (RPA) Robotic Process Automation
 - https://arxiv.org/abs/2405.03710 (ECLAIR) - ECLAIR
 - https://arxiv.org/abs/2404.13050 (FlowMind) - JPM
+
 - 
 
 
@@ -334,5 +337,9 @@ https://aiagentsdirectory.com/landscape
 
 2. Laplacian / Heat Diffusion Graphs
 
+
+# Robotics
+- https://groups.google.com/g/rssc-list
+- 
 
 
