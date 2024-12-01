@@ -91,7 +91,7 @@ https://x.com/aimodelsfyi
 |-|-|
 |Retrieval Distillion| |
 |Contextual Retrieval| https://www.anthropic.com/news/contextual-retrieval |
-
+|Agent-as-a-Judge| |
 
 - Anthropic solved this using ‘contextual embeddings’, where a prompt instructs the model to generate text explaining the context of each chunk in the document
 - prompt https://github.com/mlbrnm/contextualretrieval/blob/main/contextgeneration.py
