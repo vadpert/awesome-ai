@@ -235,8 +235,13 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 
 -------------------------------------------
 ## Reinforcement Learning
+
+### Intro
+- (Reinforcement Learning: An Introduction 2018) [https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf]
+- https://lilianweng.github.io/posts/2018-02-19-rl-overview/
+
+### Approaches
 1. Imitation Learning (IL)
-1. (Reinforcement Learning: An Introduction 2018) [https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf]
 1. deep reinforcement learning (RL)
 1. Monte Carlo tree search
 1.  Contextual Bandits (one step RL)
