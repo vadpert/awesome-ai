@@ -19,7 +19,8 @@ https://x.com/aimodelsfyi
 - https://en.wikipedia.org/wiki/Halting_problem
 -  Entscheidungsproblem ("decision problem")
 -  Newell, Allen, and Herbert A. Simon, Human Problem Solving, Prentice-Hall, Englewood Cliffs, NJ., 1972.
-
+- The Entscheidungsproblem and Alan Turing (Book 2019) - https://www.gcsu.edu/sites/files/page-assets/node-808/attachments/brodkorb.pdf
+- 
 
 
 
