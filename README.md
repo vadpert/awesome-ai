@@ -4,9 +4,9 @@
 
 # Table of Contents
 - [People](#People)
-- [AI Learning](#AI Learning)
-- [History of AI](#History of AI)
-
+- [AI Learning](#AI-Learning)
+- [History of AI](#History-of-AI)
+- [Cognitive-Architecture](#Cognitive-Architecture)
 
 ## People
 - Noam Brown
@@ -17,10 +17,10 @@
 
 https://x.com/aimodelsfyi
 
-## AI Learning
+## AI-Learning
 - https://huggingface.co/learn
 
-## History of AI
+## History-of-AI
 - https://en.wikipedia.org/wiki/Alonzo_Church
 - Church–Turing thesis - https://plato.stanford.edu/entries/church-turing/
 - https://en.wikipedia.org/wiki/Halting_problem
@@ -31,7 +31,7 @@ https://x.com/aimodelsfyi
 
 
 
-## Cognitive Architecture
+## Cognitive-Architecture
 -  Cognitive Architectures for Language Agents - https://arxiv.org/pdf/2309.02427
 - Characterizing Technical Debt and Antipatterns in AI-Based Systems: A Systematic Mapping Study - https://arxiv.org/pdf/2103.09783
 
