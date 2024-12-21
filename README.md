@@ -6,6 +6,7 @@
 - [People](#People)
 - [AI Learning](#AI-Learning)
 - [History of AI](#History-of-AI)
+- [Future-of-AI](#Future-of-AI)
 - [Cognitive-Architecture](#Cognitive-Architecture)
 
 ## People
@@ -13,7 +14,7 @@
 - Ilge Akkaya
 - Hunter Lightman
 - Leopold Aschenbrenner - https://www.forourposterity.com/
-   - https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf
+   
 
 https://x.com/aimodelsfyi
 
@@ -29,7 +30,8 @@ https://x.com/aimodelsfyi
 - The Entscheidungsproblem and Alan Turing (Book 2019) - https://www.gcsu.edu/sites/files/page-assets/node-808/attachments/brodkorb.pdf
 - 
 
-
+## Future-of-AI
+- [Situational Awareness by Leopold Aschenbrenner](https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf)
 
 ## Cognitive-Architecture
 -  Cognitive Architectures for Language Agents - https://arxiv.org/pdf/2309.02427
