@@ -2,8 +2,17 @@
 
 > Carefully curated list of AI research
 
-## Contents
-- 
+# Table of Contents
+- [People](#People)
+
+
+##### 
+[Headers](#headers)  
+[Emphasis](#emphasis)  
+...snip...    
+<a name="headers"/>
+
+
 
 ## People
 - Noam Brown
