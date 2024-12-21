@@ -6,10 +6,11 @@
 - 
 
 ## People
-Noam Brown
-Ilge Akkaya
-Hunter Lightman
-Leopold Aschenbrenner - https://www.forourposterity.com/
+- Noam Brown
+- Ilge Akkaya
+- Hunter Lightman
+- Leopold Aschenbrenner - https://www.forourposterity.com/
+   - https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf
 
 https://x.com/aimodelsfyi
 
