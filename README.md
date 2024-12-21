@@ -26,7 +26,8 @@ https://x.com/aimodelsfyi
 - The Entscheidungsproblem and Alan Turing (Book 2019) - https://www.gcsu.edu/sites/files/page-assets/node-808/attachments/brodkorb.pdf
 - 
 
-
+## Leaderboards
+- SWE-bench (resolve github issues) - https://www.swebench.com/
 
 ## Cognitive Architecture
 -  Cognitive Architectures for Language Agents - https://arxiv.org/pdf/2309.02427
