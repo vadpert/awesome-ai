@@ -9,9 +9,12 @@
 Noam Brown
 Ilge Akkaya
 Hunter Lightman
+Leopold Aschenbrenner - https://www.forourposterity.com/
 
 https://x.com/aimodelsfyi
 
+## AI Learning
+- https://huggingface.co/learn
 
 ## History of AI
 - https://en.wikipedia.org/wiki/Alonzo_Church
