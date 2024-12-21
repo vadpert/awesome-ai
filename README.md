@@ -4,14 +4,8 @@
 
 # Table of Contents
 - [People](#People)
-
-
-##### 
-[Headers](#headers)  
-[Emphasis](#emphasis)  
-...snip...    
-<a name="headers"/>
-
+- [AI Learning](#AI Learning)
+- [History of AI](#History of AI)
 
 
 ## People
