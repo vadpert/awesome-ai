@@ -8,6 +8,10 @@
 - [History of AI](#History-of-AI)
 - [Future-of-AI](#Future-of-AI)
 - [Cognitive-Architecture](#Cognitive-Architecture)
+- [Generative-AI](#Generative-AI)
+-    [Overview](##Overview)
+
+
 
 ## People
 - Noam Brown
@@ -69,15 +73,13 @@ https://x.com/aimodelsfyi
 - first-order logic (FOL) vs propositional logic
 
 -----------------------------
-## Generative AI
+## Generative-AI
 
-###
+### 
 - https://press.airstreet.com/
 - https://paperswithcode.com/sota
 - https://research.google/blog
 
-
-### Platform Experience
 - https://www.anthropic.com/news/analysis-tool
 
 
