@@ -12,8 +12,13 @@
    - [Overview](##Overview)
 
 
+## Me
+
+
 
 ## People
+- Me
+   - https://finitereason.substack.com/
 - Noam Brown
 - Ilge Akkaya
 - Hunter Lightman
@@ -115,6 +120,15 @@ https://x.com/aimodelsfyi
 - 
 
 
+### Interpretability
+- Mechanistic interpretability
+- Anthropic - https://transformer-circuits.pub/
+-  Anthropic’s interpretability team used sparse autoencoders - neural networks that learn efficient representations of data by emphasizing important features and ensuring only a few are active at any one time - to decompose activations of Claude 3 Sonnet into interpretable components. They also showed that by ‘pinning’ a feature to ‘active’ you could control the output - famously turning up the strength of the Golden Gate feature.
+- Source: https://www.anthropic.com/news/mapping-mind-language-model 
+- Source: https://www.anthropic.com/news/golden-gate-claude
+- Source: https://arxiv.org/abs/2406.04093 
+
+
 
 ### Reasoning Techniques
 - The Surprising Effectiveness of Test-Time Training for Abstract Reasoning - https://ekinakyurek.github.io/papers/ttt.pdf
@@ -204,10 +218,6 @@ Meta’s TestGen-LLM has gone from paper to product at breakneck space (4 months
 -- Source: https://arxiv.org/abs/2402.04792 ( Google DeepMind team has combined the simplicity of direct alignment from preferences (DAP) with the on-line policy learning of RLHF to create direct alignment from AI feedback)
 - Source: https://arxiv.org/abs/2406.08391 (uncertainty score)
 
--  Anthropic’s interpretability team used sparse autoencoders - neural networks that learn efficient representations of data by emphasizing important features and ensuring only a few are active at any one time - to decompose activations of Claude 3 Sonnet into interpretable components. They also showed that by ‘pinning’ a feature to ‘active’ you could control the output - famously turning up the strength of the Golden Gate feature.
-- Source: https://www.anthropic.com/news/mapping-mind-language-model 
-- Source: https://www.anthropic.com/news/golden-gate-claude
-- Source: https://arxiv.org/abs/2406.04093 
 Source: https://arxiv.org/abs/2403.03867 (Origins of Linear Representations)
 Source: https://arxiv.org/abs/2405.12250 (Transformer is secretly linear)
 
