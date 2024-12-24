@@ -41,6 +41,10 @@ https://x.com/aimodelsfyi
 
 ## Future-of-AI
 - [Situational Awareness by Leopold Aschenbrenner](https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf)
+   - By 27/28, the endgame will be on.
+   - By 28/29 the in telligence explosion will be underway;
+   - By 2030, we will have summoned superintelligence, in all its power and might.
+
 
 ## Cognitive-Architecture
 -  Cognitive Architectures for Language Agents - https://arxiv.org/pdf/2309.02427
