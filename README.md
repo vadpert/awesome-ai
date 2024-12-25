@@ -276,6 +276,10 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 ### Abstract Syntax Tree Libraries (AST)
 - https://tree-sitter.github.io/tree-sitter/
 
+### Security
+- Sybil resistance
+- 
+
 -------------------------------------------
 ## Reinforcement Learning
 
