@@ -45,6 +45,7 @@ https://x.com/aimodelsfyi
    - By 28/29 the in telligence explosion will be underway;
    - By 2030, we will have summoned superintelligence, in all its power and might.
 - Short letter to my 11-year-old-self - [https://scottaaronson.blog/](https://scottaaronson.blog/?p=6919)
+- Tinker Story by Richard Ngo / Asimov Press - https://www.asimov.press/p/tinker
 
 
 ## Cognitive-Architecture
