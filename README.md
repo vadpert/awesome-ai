@@ -30,6 +30,11 @@ https://x.com/aimodelsfyi
 ## AI-Learning
 - https://huggingface.co/learn
 
+
+## Research Papers
+- [Ahead of AI - LLM Research Papers: The 2024 List](https://magazine.sebastianraschka.com/p/llm-research-papers-the-2024-list)
+- 
+
 ## History-of-AI
 - https://en.wikipedia.org/wiki/Alonzo_Church
 - Church–Turing thesis - https://plato.stanford.edu/entries/church-turing/
@@ -173,6 +178,9 @@ https://x.com/aimodelsfyi
 
 ### Transformers
 - https://towardsdatascience.com/understanding-llms-from-scratch-using-middle-school-math-e602d27ec876
+- https://github.com/rasbt/LLMs-from-scratch
+
+
 
 ### LLM Papers
 - Llama3 Herd of Models - https://arxiv.org/pdf/2407.21783
