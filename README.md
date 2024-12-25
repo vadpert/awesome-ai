@@ -44,6 +44,7 @@ https://x.com/aimodelsfyi
    - By 27/28, the endgame will be on.
    - By 28/29 the in telligence explosion will be underway;
    - By 2030, we will have summoned superintelligence, in all its power and might.
+- Short letter to my 11-year-old-self - [https://scottaaronson.blog/](https://scottaaronson.blog/?p=6919)
 
 
 ## Cognitive-Architecture
@@ -131,8 +132,8 @@ https://x.com/aimodelsfyi
 - Source: https://www.anthropic.com/news/mapping-mind-language-model 
 - Source: https://www.anthropic.com/news/golden-gate-claude
 - Source: https://arxiv.org/abs/2406.04093 
-
-
+- [200 Concrete Open Problems in Mechanistic Interpretability: Introduction](https://www.alignmentforum.org/posts/LbrPTJ4fmABEdEnLf/200-concrete-open-problems-in-mechanistic-interpretability)
+- 
 
 ### Reasoning Techniques
 - The Surprising Effectiveness of Test-Time Training for Abstract Reasoning - https://ekinakyurek.github.io/papers/ttt.pdf
