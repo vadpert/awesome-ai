@@ -121,9 +121,10 @@
 #### classical-planning
 
 | Type | Notes |
+|-|-|
 | Tree of Thoughts | (Yao et al., 2023) |
 | RAP | (Hao et al., 2023) |
-| Monte Carlo Tree Search | (MCTS; Browne et al., 2012) - [Monte Carlo Tree Search – beginners guide](https://int8.io/monte-carlo-tree-search-beginners-guide/)
+| Monte Carlo Tree Search | (MCTS; Browne et al., 2012) - [Monte Carlo Tree Search – beginners guide](https://int8.io/monte-carlo-tree-search-beginners-guide/) |
 | Graph Search | |
 
 - implementing tree search to mitigate myopia induced by autoregressive generation (Yao et al., 2023; Hao et al., 2023).
