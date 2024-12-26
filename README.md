@@ -12,9 +12,6 @@
    - [Overview](##Overview)
 
 
-## Me
-
-
 
 ## People
 - Me
@@ -23,9 +20,12 @@
 - Ilge Akkaya
 - Hunter Lightman
 - Leopold Aschenbrenner - https://www.forourposterity.com/
-   
 
-https://x.com/aimodelsfyi
+## Blogs
+- https://www.interconnects.ai/
+- https://x.com/aimodelsfyi
+- https://press.airstreet.com/
+
 
 ## AI-Learning
 - https://huggingface.co/learn
@@ -33,7 +33,9 @@ https://x.com/aimodelsfyi
 
 ## Research Papers
 - [Ahead of AI - LLM Research Papers: The 2024 List](https://magazine.sebastianraschka.com/p/llm-research-papers-the-2024-list)
-- 
+- https://paperswithcode.com/sota
+- https://research.google/blog
+
 
 ## History-of-AI
 - https://en.wikipedia.org/wiki/Alonzo_Church
@@ -91,10 +93,6 @@ https://x.com/aimodelsfyi
 -----------------------------
 ## Generative-AI
 
-### 
-- https://press.airstreet.com/
-- https://paperswithcode.com/sota
-- https://research.google/blog
 
 - https://www.anthropic.com/news/analysis-tool
 
@@ -169,6 +167,9 @@ https://x.com/aimodelsfyi
 1. CoT Decoding		- proxy	Implements chain-of-thought decoding to elicit reasoning without explicit prompting
 1. Entropy Decoding	-	Implements adaptive sampling based on the uncertainty of tokens during generation
 
+
+*o3*
+- AlphaZero-style Monte-Carlo tree search; the search is presumably guided by some kind of evaluator model.
 
 
 #### Legal
