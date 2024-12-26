@@ -4,40 +4,45 @@
 
 # Table of Contents
 - [People](#People)
+- [Blogs](#Blogs)
 - [AI Learning](#AI-Learning)
+- [Research Papers](#Research-Papers)
 - [History of AI](#History-of-AI)
 - [Future-of-AI](#Future-of-AI)
-- [Cognitive-Architecture](#Cognitive-Architecture)
 - [Generative-AI](#Generative-AI)
    - [Overview](##Overview)
+   - [Transformers](##Transformers)
+   - [Prompt-Writing](#Prompt-Writing)
+   - [Prompt-Algorithms](#Prompt-Algorithms)
+   - [Retrieval](#Retrieval)
+   - [Reasoning](#Reasoning)
+- [Cognitive-Architecture](#Cognitive-Architecture)
 
 
-
-## People
-- Me
-   - https://finitereason.substack.com/
+# People
+- Me https://finitereason.substack.com/
 - Noam Brown
 - Ilge Akkaya
 - Hunter Lightman
 - Leopold Aschenbrenner - https://www.forourposterity.com/
 
-## Blogs
+# Blogs
 - https://www.interconnects.ai/
 - https://x.com/aimodelsfyi
 - https://press.airstreet.com/
 
 
-## AI-Learning
+# AI-Learning
 - https://huggingface.co/learn
 
 
-## Research Papers
+# Research-Papers
 - [Ahead of AI - LLM Research Papers: The 2024 List](https://magazine.sebastianraschka.com/p/llm-research-papers-the-2024-list)
 - https://paperswithcode.com/sota
 - https://research.google/blog
 
 
-## History-of-AI
+# History-of-AI
 - https://en.wikipedia.org/wiki/Alonzo_Church
 - Church–Turing thesis - https://plato.stanford.edu/entries/church-turing/
 - https://en.wikipedia.org/wiki/Halting_problem
@@ -46,7 +51,7 @@
 - The Entscheidungsproblem and Alan Turing (Book 2019) - https://www.gcsu.edu/sites/files/page-assets/node-808/attachments/brodkorb.pdf
 - 
 
-## Future-of-AI
+# Future-of-AI
 - [Situational Awareness by Leopold Aschenbrenner](https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf)
    - By 27/28, the endgame will be on.
    - By 28/29 the in telligence explosion will be underway;
@@ -54,41 +59,6 @@
 - Short letter to my 11-year-old-self - [https://scottaaronson.blog/](https://scottaaronson.blog/?p=6919)
 - Tinker Story by Richard Ngo / Asimov Press - https://www.asimov.press/p/tinker
 
-
-## Cognitive-Architecture
--  Cognitive Architectures for Language Agents - https://arxiv.org/pdf/2309.02427
-- Characterizing Technical Debt and Antipatterns in AI-Based Systems: A Systematic Mapping Study - https://arxiv.org/pdf/2103.09783
-
-- Cognitive Architecture
-- structured action space
-- language-based general intelligence
-- control flows
-- grounding to existing knowledge or external observations
-- cognitive language agents
-- (memory, action, and decision-making),
-   - information storage (divided into working and long-term memories)
-   - their action space (divided into internal and external actions)
-   - decision-making procedure (which is structured as an interactive loop with planning and execution)
-   - information retrieval: rule-based, sparse, or dense retrieval
--  Generative Agents
-   - (Park et al., 2023) are language agents grounded to a sandbox game affording interaction
- with the environment and other agents. Its action space also has all four kinds of actions: grounding, reasoning,
- retrieval, and learning. Each agent has a long-term episodic memory that stores events in a list. These agents
- use retrieval and reasoning to generate reflections on their episodic memory (e.g., “I like to ski now.”) which
- are then written to long-term semantic memory. During decision-making, it retrieves relevant reflections from
- semantic memory, then reasons to make a high-level plan of the day. While executing the plan, the agent
- receives a stream of grounding observations; it can reason over these to maintain or adjust the plan.
-   - recon learn episodic and long term memory how to solve specific accounts
-- Standard Interaction
-   - agents should be structured and modular
-   -  Memory, Action, Agent
-   - maintaining a single company-wide “language agent library” would reduce technical debt (Sculley et al., 2014; Lwakatare et al., 2020) by facilitating testing and component re-use across individual agent deployments.
-   -  adaptively allocate computation (Russek et al., 2022; Lieder and Griffiths, 2020; Callaway et al., 2022; Gershman et al., 2015).
-- neuro symbolic AI
-   - facts: neuro / dat approximation (facts) - knowledge representation, logical reasoning, rule based inference
-   - symbolic (recursive logic) - creativity, generative, statistical predictions, natural interactions
-- Inductive reasoning
-- first-order logic (FOL) vs propositional logic
 
 -----------------------------
 ## Generative-AI
@@ -101,7 +71,7 @@
 - https://github.com/rasbt/LLMs-from-scratch
 
 
-### Prompt Engineering
+### Prompt-Writing
 - https://www.reddit.com/r/ClaudeAI/comments/1e39tvj/sonnet_35_coding_system_prompt_v2_with_explainer/
 - https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/use-xml-tags
 - https://learnprompting.org/docs/introduction
@@ -109,68 +79,53 @@
 - Writer Prompting Strategies - https://dev.writer.com/home/prompting
 
 
-| Type | Notes |
-|-|-|
-|Self-Critique|  |
-|Socratic Models|  |
-|Ask Me Anything (AMA) Prompting| | 
-
-
-### Retrieval Techniques (RAG)
+### Prompt-Algorithms
 
 | Type | Notes |
 |-|-|
-|Retrieval Distillion| |
-|Contextual Retrieval| https://www.anthropic.com/news/contextual-retrieval |
-|Agent-as-a-Judge| |
+| Router | Uses the optillm-bert-uncased model to route requests to different approaches based on the user prompt |
+| Self-Critique |  |
+| Socratic Models |  |
+| Ask Me Anything (AMA) Prompting | | 
+| Retrieval Distillion | |
+| Contextual Retrieval | https://www.anthropic.com/news/contextual-retrieval |
+| Agent-as-a-Judge | |
+| contextual embeddings | - Anthropic solved this using ‘contextual embeddings’, where a prompt instructs the model to generate text explaining the context of each chunk in the document: [prompt](https://github.com/mlbrnm/contextualretrieval/blob/main/contextgeneration.py) |
 
-- Anthropic solved this using ‘contextual embeddings’, where a prompt instructs the model to generate text explaining the context of each chunk in the document
-- prompt https://github.com/mlbrnm/contextualretrieval/blob/main/contextgeneration.py
+
 - ColPali: Efficient Document Retrieval with Vision Language Models - https://github.com/illuin-tech/colpali
-- 
 
 
-### Interpretability
-- Mechanistic interpretability
-- Anthropic - https://transformer-circuits.pub/
--  Anthropic’s interpretability team used sparse autoencoders - neural networks that learn efficient representations of data by emphasizing important features and ensuring only a few are active at any one time - to decompose activations of Claude 3 Sonnet into interpretable components. They also showed that by ‘pinning’ a feature to ‘active’ you could control the output - famously turning up the strength of the Golden Gate feature.
-- Source: https://www.anthropic.com/news/mapping-mind-language-model 
-- Source: https://www.anthropic.com/news/golden-gate-claude
-- Source: https://arxiv.org/abs/2406.04093 
-- [200 Concrete Open Problems in Mechanistic Interpretability: Introduction](https://www.alignmentforum.org/posts/LbrPTJ4fmABEdEnLf/200-concrete-open-problems-in-mechanistic-interpretability)
-- - https://www.anthropic.com/news/analysis-tool
-
-
-### Reasoning Techniques
-- The Surprising Effectiveness of Test-Time Training for Abstract Reasoning - https://ekinakyurek.github.io/papers/ttt.pdf
-- classical planning algorithms:
-- Tree of Thoughts (Yao et al., 2023)
-- RAP (Hao et al., 2023)
-- Monte Carlo Tree Search (MCTS; Browne et al., 2012)
-- Breadth First Search | Depth First Search
-- implementing tree search to mitigate myopia induced by autoregressive generation (Yao et al., 2023; Hao et al., 2023).
+### Reasoning
 
 | Type | Notes |
 |-|-|
 | CoT with Reflection | Implements chain-of-thought reasoning with < thinking >, < reflection > and < output > sections |
+| PlanSearch | Implements a search algorithm over candidate plans for solving a problem in natural language |
+| ReRead | Implements rereading to improve reasoning by processing queries twice: - [Re-Reading Improves Reasoning in Large Language Models](https://arxiv.org/abs/2309.06275) - [Implementation](https://github.com/codelion/optillm/blob/main/optillm/reread.py) |
+| Self-Consistency | Implements an advanced self-consistency method |
+| Z3 Solver | Utilizes the Z3 theorem prover for logical reasoning |
+| R* Algorithm | Implements the R* algorithm for problem-solving |
+| LEAP | Learns task-specific principles from few shot examples |
+| Round Trip Optimization | Optimizes responses through a round-trip process |
+| Best of N Sampling | Generates multiple responses and selects the best one |
+| Mixture of Agents | Combines responses from multiple critiques |
+| Monte Carlo Tree Search | Uses MCTS for decision-making in chat responses |
+| PV Game | Applies a prover-verifier game approach at inference time |
+| CoT Decoding | proxy	Implements chain-of-thought decoding to elicit reasoning without explicit prompting |
+| Entropy Decoding | Implements adaptive sampling based on the uncertainty of tokens during generation |
 
 
-1. PlanSearch		-	Implements a search algorithm over candidate plans for solving a problem in natural language
-1. ReRead		-	Implements rereading to improve reasoning by processing queries twice
-1. Self-Consistency		-	Implements an advanced self-consistency method
-1. Z3 Solver		-	Utilizes the Z3 theorem prover for logical reasoning
-1. R* Algorithm		-	Implements the R* algorithm for problem-solving
-1. LEAP		-	Learns task-specific principles from few shot examples
-1. Round Trip Optimization		-	Optimizes responses through a round-trip process
-1. Best of N Sampling		-	Generates multiple responses and selects the best one
-1. Mixture of Agents		-	Combines responses from multiple critiques
-1. Monte Carlo Tree Search		-	Uses MCTS for decision-making in chat responses
-1. PV Game		-	Applies a prover-verifier game approach at inference time
-1. CoT Decoding		- proxy	Implements chain-of-thought decoding to elicit reasoning without explicit prompting
-1. Entropy Decoding	-	Implements adaptive sampling based on the uncertainty of tokens during generation
+- The Surprising Effectiveness of Test-Time Training for Abstract Reasoning - https://ekinakyurek.github.io/papers/ttt.pdf
 
+#### classical-planning
+   - Tree of Thoughts (Yao et al., 2023)
+   - RAP (Hao et al., 2023)
+   - Monte Carlo Tree Search (MCTS; Browne et al., 2012)
+   - Breadth First Search | Depth First Search
+   - implementing tree search to mitigate myopia induced by autoregressive generation (Yao et al., 2023; Hao et al., 2023).
 
-*o3*
+#### o3
 - AlphaZero-style Monte-Carlo tree search; the search is presumably guided by some kind of evaluator model.
 
 
@@ -183,7 +138,6 @@
 
 
 ## Features
-1. Router		-	Uses the optillm-bert-uncased model to route requests to different approaches based on the user prompt
 1. Chain-of-Code		-	Implements a chain of code approach that combines CoT with code execution and LLM based code simulation
    1. Chain of Code: Reasoning with a Language Model-Augmented Code Emulator - https://arxiv.org/pdf/2312.04474
 1. Memory		-	Implements a short term memory layer, enables you to use unbounded context length with any LLM
@@ -193,11 +147,17 @@
 
 
 - [Chain of Code: Reasoning with a Language Model-Augmented Code Emulator](https://arxiv.org/abs/2312.04474) - [Implementation](https://github.com/codelion/optillm/blob/main/optillm/plugins/coc_plugin.py)
+
 - [Entropy Based Sampling and Parallel CoT Decoding](https://github.com/xjdr-alt/entropix) - [Implementation](https://github.com/codelion/optillm/blob/main/optillm/entropy_decoding.py)
+
 - [Fact, Fetch, and Reason: A Unified Evaluation of Retrieval-Augmented Generation](https://arxiv.org/abs/2409.12941) - [Evaluation script](https://github.com/codelion/optillm/blob/main/scripts/eval_frames_benchmark.py)
+
 - [Writing in the Margins: Better Inference Pattern for Long Context Retrieval](https://www.arxiv.org/abs/2408.14906) - [Inspired the implementation of the memory plugin](https://github.com/codelion/optillm/blob/main/optillm/plugins/memory_plugin.py)
+
 - [Chain-of-Thought Reasoning Without Prompting](https://arxiv.org/abs/2402.10200) - [Implementation](https://github.com/codelion/optillm/blob/main/optillm/cot_decoding.py)
-- [Re-Reading Improves Reasoning in Large Language Models](https://arxiv.org/abs/2309.06275) - [Implementation](https://github.com/codelion/optillm/blob/main/optillm/reread.py)
+
+
+
 - [In-Context Principle Learning from Mistakes](https://arxiv.org/abs/2402.05403) - [Implementation](https://github.com/codelion/optillm/blob/main/optillm/leap.py)
 - [Planning In Natural Language Improves LLM Search For Code Generation](https://arxiv.org/abs/2409.03733) - [Implementation](https://github.com/codelion/optillm/blob/main/optillm/plansearch.py)
 - [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171) - [Implementation](https://github.com/codelion/optillm/blob/main/optillm/self_consistency.py)
@@ -274,6 +234,19 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 #### Legal
 - https://github.com/HazyResearch/legalbench/blob/main/tasks/definition_extraction/README.md
 - Contract Understanding Atticus Dataset (CUAD) - https://www.atticusprojectai.org/cuad
+
+
+
+
+### Interpretability
+- Mechanistic interpretability
+- Anthropic - https://transformer-circuits.pub/
+-  Anthropic’s interpretability team used sparse autoencoders - neural networks that learn efficient representations of data by emphasizing important features and ensuring only a few are active at any one time - to decompose activations of Claude 3 Sonnet into interpretable components. They also showed that by ‘pinning’ a feature to ‘active’ you could control the output - famously turning up the strength of the Golden Gate feature.
+- Source: https://www.anthropic.com/news/mapping-mind-language-model 
+- Source: https://www.anthropic.com/news/golden-gate-claude
+- Source: https://arxiv.org/abs/2406.04093 
+- [200 Concrete Open Problems in Mechanistic Interpretability: Introduction](https://www.alignmentforum.org/posts/LbrPTJ4fmABEdEnLf/200-concrete-open-problems-in-mechanistic-interpretability)
+- - https://www.anthropic.com/news/analysis-tool
 
 
 -------------------------------------------
@@ -400,3 +373,38 @@ https://aiagentsdirectory.com/landscape
 - 
 
 
+
+# Cognitive-Architecture
+-  Cognitive Architectures for Language Agents - https://arxiv.org/pdf/2309.02427
+- Characterizing Technical Debt and Antipatterns in AI-Based Systems: A Systematic Mapping Study - https://arxiv.org/pdf/2103.09783
+
+- Cognitive Architecture
+- structured action space
+- language-based general intelligence
+- control flows
+- grounding to existing knowledge or external observations
+- cognitive language agents
+- (memory, action, and decision-making),
+   - information storage (divided into working and long-term memories)
+   - their action space (divided into internal and external actions)
+   - decision-making procedure (which is structured as an interactive loop with planning and execution)
+   - information retrieval: rule-based, sparse, or dense retrieval
+-  Generative Agents
+   - (Park et al., 2023) are language agents grounded to a sandbox game affording interaction
+ with the environment and other agents. Its action space also has all four kinds of actions: grounding, reasoning,
+ retrieval, and learning. Each agent has a long-term episodic memory that stores events in a list. These agents
+ use retrieval and reasoning to generate reflections on their episodic memory (e.g., “I like to ski now.”) which
+ are then written to long-term semantic memory. During decision-making, it retrieves relevant reflections from
+ semantic memory, then reasons to make a high-level plan of the day. While executing the plan, the agent
+ receives a stream of grounding observations; it can reason over these to maintain or adjust the plan.
+   - recon learn episodic and long term memory how to solve specific accounts
+- Standard Interaction
+   - agents should be structured and modular
+   -  Memory, Action, Agent
+   - maintaining a single company-wide “language agent library” would reduce technical debt (Sculley et al., 2014; Lwakatare et al., 2020) by facilitating testing and component re-use across individual agent deployments.
+   -  adaptively allocate computation (Russek et al., 2022; Lieder and Griffiths, 2020; Callaway et al., 2022; Gershman et al., 2015).
+- neuro symbolic AI
+   - facts: neuro / dat approximation (facts) - knowledge representation, logical reasoning, rule based inference
+   - symbolic (recursive logic) - creativity, generative, statistical predictions, natural interactions
+- Inductive reasoning
+- first-order logic (FOL) vs propositional logic
