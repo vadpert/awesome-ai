@@ -93,12 +93,13 @@
 -----------------------------
 ## Generative-AI
 
-
-- https://www.anthropic.com/news/analysis-tool
-
-
 ### Overview
 [State of AI Report - 2024 ONLINE](https://docs.google.com/presentation/d/1GmZmoWOa2O92BPrncRcTKa15xvQGhq7g4I4hJSNlC0M/edit#slide=id.g3058058dd40_3_39)
+
+### Transformers
+- https://towardsdatascience.com/understanding-llms-from-scratch-using-middle-school-math-e602d27ec876
+- https://github.com/rasbt/LLMs-from-scratch
+
 
 ### Prompt Engineering
 - https://www.reddit.com/r/ClaudeAI/comments/1e39tvj/sonnet_35_coding_system_prompt_v2_with_explainer/
@@ -137,7 +138,8 @@
 - Source: https://www.anthropic.com/news/golden-gate-claude
 - Source: https://arxiv.org/abs/2406.04093 
 - [200 Concrete Open Problems in Mechanistic Interpretability: Introduction](https://www.alignmentforum.org/posts/LbrPTJ4fmABEdEnLf/200-concrete-open-problems-in-mechanistic-interpretability)
-- 
+- - https://www.anthropic.com/news/analysis-tool
+
 
 ### Reasoning Techniques
 - The Surprising Effectiveness of Test-Time Training for Abstract Reasoning - https://ekinakyurek.github.io/papers/ttt.pdf
@@ -172,21 +174,9 @@
 - AlphaZero-style Monte-Carlo tree search; the search is presumably guided by some kind of evaluator model.
 
 
-#### Legal
-- https://github.com/HazyResearch/legalbench/blob/main/tasks/definition_extraction/README.md
-- Contract Understanding Atticus Dataset (CUAD) - https://www.atticusprojectai.org/cuad
-
-
-### Transformers
-- https://towardsdatascience.com/understanding-llms-from-scratch-using-middle-school-math-e602d27ec876
-- https://github.com/rasbt/LLMs-from-scratch
-
-
-
 ### LLM Papers
 - Llama3 Herd of Models - https://arxiv.org/pdf/2407.21783
 - 
-
 
 ## Frameworks
 - Optimizing inference proxy for LLMs - https://github.com/codelion/optillm
@@ -281,6 +271,11 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 - Sybil resistance
 - 
 
+#### Legal
+- https://github.com/HazyResearch/legalbench/blob/main/tasks/definition_extraction/README.md
+- Contract Understanding Atticus Dataset (CUAD) - https://www.atticusprojectai.org/cuad
+
+
 -------------------------------------------
 ## Reinforcement Learning
 
@@ -359,7 +354,6 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 - [Multi-armed bandit](http://www.com/) - Official website.
 
 
-
 ## Process / Workflow
 - (UX) https://excalidraw.com/
 - (Amazon State Language) https://states-language.net/
@@ -369,9 +363,6 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 ### Enterprise Automation (RPA) Robotic Process Automation
 - https://arxiv.org/abs/2405.03710 (ECLAIR) - ECLAIR
 - https://arxiv.org/abs/2404.13050 (FlowMind) - JPM
-
-- 
-
 
 
 # Document Parsing
@@ -401,7 +392,6 @@ https://aiagentsdirectory.com/landscape
 
 # Graph
 1. Leiden Algorith
-
 2. Laplacian / Heat Diffusion Graphs
 
 
