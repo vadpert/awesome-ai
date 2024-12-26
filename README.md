@@ -323,7 +323,13 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 1. Restricted Boltzmann Machine (RBM)
 1. Hierarchical Temporal Memory (HTM)
 1. Convolutional Neural Networks (CNN)
+1. Residual Convolutional Neural Networks – policy and value network(s) used for game evaluation and move prior probability estimation
 1. Long Short Term Memory (LSTM)
+
+
+-----------------------------
+## Optimization
+- https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/ -  FunSearch works by pairing a pre-trained LLM, whose goal is to provide creative solutions in the form of computer code, with an automated “evaluator”, which guards against hallucinations and incorrect ideas. By iterating back-and-forth between these two components, initial solutions “evolve” into new knowledge. The system searches for “functions” written in computer code; hence the name FunSearch.
 
 -----------------------------
 
