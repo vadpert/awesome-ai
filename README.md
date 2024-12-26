@@ -58,24 +58,25 @@
 - 
 
 # Future-of-AI
+- [State of AI Report - 2024 ONLINE](https://docs.google.com/presentation/d/1GmZmoWOa2O92BPrncRcTKa15xvQGhq7g4I4hJSNlC0M/edit#slide=id.g3058058dd40_3_39)
 - [Situational Awareness by Leopold Aschenbrenner](https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf)
    - By 27/28, the endgame will be on.
    - By 28/29 the in telligence explosion will be underway;
    - By 2030, we will have summoned superintelligence, in all its power and might.
-- Short letter to my 11-year-old-self - [https://scottaaronson.blog/](https://scottaaronson.blog/?p=6919)
-- Tinker Story by Richard Ngo / Asimov Press - https://www.asimov.press/p/tinker
+- [Short letter to my 11-year-old-self](https://scottaaronson.blog/?p=6919)
+- [Tinker Story by Richard Ngo / Asimov Press](https://www.asimov.press/p/tinker)
 
 
 -----------------------------
 ## Generative-AI
 
-### Overview
-[State of AI Report - 2024 ONLINE](https://docs.google.com/presentation/d/1GmZmoWOa2O92BPrncRcTKa15xvQGhq7g4I4hJSNlC0M/edit#slide=id.g3058058dd40_3_39)
-
 ### Transformers
 - https://towardsdatascience.com/understanding-llms-from-scratch-using-middle-school-math-e602d27ec876
 - [GIT - LLMs From Scratch](https://github.com/rasbt/LLMs-from-scratch)
 - [GIT - LLM Course](https://github.com/mlabonne/llm-course)
+
+### LLM Research Papers
+- Llama3 Herd of Models - https://arxiv.org/pdf/2407.21783
 
 
 ### Prompt-Writing
@@ -116,8 +117,8 @@
 | LEAP | Learns task-specific principles from few shot examples |
 | Round Trip Optimization | Optimizes responses through a round-trip process |
 | Best of N Sampling | Generates multiple responses and selects the best one |
-| Mixture of Agents | Combines responses from multiple critiques |
-| Monte Carlo Tree Search | Uses MCTS for decision-making in chat responses |
+| Mixture of Agents | Combines responses from multiple critiques: - [Mixture-of-Agents Enhances Large Language Model Capabilities](https://arxiv.org/abs/2406.04692) - [Inspired the implementation of moa](https://github.com/codelion/optillm/blob/main/optillm/moa.py) |
+| Monte Carlo Tree Search | Uses MCTS for decision-making in chat responses: - [Monte Carlo Tree Search Boosts Reasoning via Iterative Preference Learning](https://arxiv.org/abs/2405.00451) - [Inspired the implementation of mcts](https://github.com/codelion/optillm/blob/main/optillm/mcts.py) |
 | PV Game | Applies a prover-verifier game approach at inference time |
 | CoT Decoding | proxy	Implements chain-of-thought decoding to elicit reasoning without explicit prompting |
 | Entropy Decoding | Implements adaptive sampling based on the uncertainty of tokens during generation |
@@ -136,18 +137,17 @@
 
 - implementing tree search to mitigate myopia induced by autoregressive generation (Yao et al., 2023; Hao et al., 2023).
 
-#### o3
-- AlphaZero-style Monte-Carlo tree search; the search is presumably guided by some kind of evaluator model.
+#### Multi-Agent
+- CrewAI, Autogen, LangGraph, LlamaIndex Workflows, OpenAI Swarm, Vectara Agentic, Phi Agents, Haystack Agents
+https://aiagentsdirectory.com/landscape
+- Microsoft Magentic One - https://github.com/microsoft/autogen/blob/main/python/packages/autogen-magentic-one/src/autogen_magentic_one/agents/orchestrator_prompts.py
+
+#### Notes
+- o3 = AlphaZero-style Monte-Carlo tree search; the search is presumably guided by some kind of evaluator model.
 
 
-### LLM Papers
-- Llama3 Herd of Models - https://arxiv.org/pdf/2407.21783
-- 
-
-## Frameworks
+## Frameworks & Platforms
 - Optimizing inference proxy for LLMs - https://github.com/codelion/optillm
-
-## Platforms
 - https://lightning.ai/studios?section=blogs
 
 
@@ -170,17 +170,20 @@
 
 - [Chain-of-Thought Reasoning Without Prompting](https://arxiv.org/abs/2402.10200) - [Implementation](https://github.com/codelion/optillm/blob/main/optillm/cot_decoding.py)
 
-
-
 - [In-Context Principle Learning from Mistakes](https://arxiv.org/abs/2402.05403) - [Implementation](https://github.com/codelion/optillm/blob/main/optillm/leap.py)
+
 - [Planning In Natural Language Improves LLM Search For Code Generation](https://arxiv.org/abs/2409.03733) - [Implementation](https://github.com/codelion/optillm/blob/main/optillm/plansearch.py)
+
 - [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171) - [Implementation](https://github.com/codelion/optillm/blob/main/optillm/self_consistency.py)
+
 - [Mutual Reasoning Makes Smaller LLMs Stronger Problem-Solvers](https://arxiv.org/abs/2408.06195) - [Implementation](https://github.com/codelion/optillm/blob/main/optillm/rstar.py)
-- [Mixture-of-Agents Enhances Large Language Model Capabilities](https://arxiv.org/abs/2406.04692) - [Inspired the implementation of moa](https://github.com/codelion/optillm/blob/main/optillm/moa.py)
+
 - [Prover-Verifier Games improve legibility of LLM outputs](https://arxiv.org/abs/2407.13692) - [Implementation](https://github.com/codelion/optillm/blob/main/optillm/pvg.py)
-- [Monte Carlo Tree Search Boosts Reasoning via Iterative Preference Learning](https://arxiv.org/abs/2405.00451) - [Inspired the implementation of mcts](https://github.com/codelion/optillm/blob/main/optillm/mcts.py)
+
 - [Unsupervised Evaluation of Code LLMs with Round-Trip Correctness](https://arxiv.org/abs/2402.08699) - [Inspired the implementation of rto](https://github.com/codelion/optillm/blob/main/optillm/rto.py)
+
 - [Patched MOA: optimizing inference for diverse software development tasks](https://arxiv.org/abs/2407.18521) - [Implementation](https://github.com/codelion/optillm/blob/main/optillm/moa.py)
+- 
 - [Patched RTC: evaluating LLMs for diverse software development tasks](https://arxiv.org/abs/2407.16557) - [Implementation](https://github.com/codelion/optillm/blob/main/optillm/rto.py)
 
 
@@ -370,12 +373,6 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 
 # Location
 1. https://github.com/openvenues/libpostal
-
-
-# Agents
-1. CrewAI, Autogen, LangGraph, LlamaIndex Workflows, OpenAI Swarm, Vectara Agentic, Phi Agents, Haystack Agents
-https://aiagentsdirectory.com/landscape
-2. Microsoft Magentic One - https://github.com/microsoft/autogen/blob/main/python/packages/autogen-magentic-one/src/autogen_magentic_one/agents/orchestrator_prompts.py
 
 ## Video / Image Generation / Art
 1. https://civitai.com/tag/base%20model
