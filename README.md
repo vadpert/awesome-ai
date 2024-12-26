@@ -18,18 +18,21 @@
    - [Prompt-Algorithms](#Prompt-Algorithms)
    - [Retrieval](#Retrieval)
    - [Reasoning](#Reasoning)
-- [Engineering]
+- Engineering
    - [Cognitive-Architecture](#Cognitive-Architecture)
 
 
-# People
+----------------
+# Learning
+
+## People
 - Me https://finitereason.substack.com/
 - Noam Brown
 - Ilge Akkaya
 - Hunter Lightman
 - Leopold Aschenbrenner - https://www.forourposterity.com/
 
-# Blogs
+## Blogs
 - https://www.interconnects.ai/
 - https://x.com/aimodelsfyi
 - https://press.airstreet.com/
@@ -38,17 +41,18 @@
 
 - [Twitter TheAlphaSignal](https://x.com/TheAlphaSignal)
 
-# AI-Learning
+## AI-Learning
 - https://huggingface.co/learn
 
 
-# Research-Papers
+## Research-Papers
 - [Ahead of AI - LLM Research Papers: The 2024 List](https://magazine.sebastianraschka.com/p/llm-research-papers-the-2024-list)
 - https://paperswithcode.com/sota
 - https://research.google/blog
 
+# Philosophy
 
-# History-of-AI
+## History-of-AI
 - https://en.wikipedia.org/wiki/Alonzo_Church
 - Church–Turing thesis - https://plato.stanford.edu/entries/church-turing/
 - https://en.wikipedia.org/wiki/Halting_problem
@@ -57,7 +61,7 @@
 - The Entscheidungsproblem and Alan Turing (Book 2019) - https://www.gcsu.edu/sites/files/page-assets/node-808/attachments/brodkorb.pdf
 - 
 
-# Future-of-AI
+## Future-of-AI
 - [State of AI Report - 2024 ONLINE](https://docs.google.com/presentation/d/1GmZmoWOa2O92BPrncRcTKa15xvQGhq7g4I4hJSNlC0M/edit#slide=id.g3058058dd40_3_39)
 - [Situational Awareness by Leopold Aschenbrenner](https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf)
    - By 27/28, the endgame will be on.
@@ -65,7 +69,7 @@
    - By 2030, we will have summoned superintelligence, in all its power and might.
 - [Short letter to my 11-year-old-self](https://scottaaronson.blog/?p=6919)
 - [Tinker Story by Richard Ngo / Asimov Press](https://www.asimov.press/p/tinker)
-
+- [Dario Amodei - Machines of Loving Grace](https://darioamodei.com/machines-of-loving-grace)
 
 -----------------------------
 ## Generative-AI
