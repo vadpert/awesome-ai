@@ -22,7 +22,7 @@
    - [Cognitive-Architecture](#Cognitive-Architecture)
 
 
-----------------
+-------------------------------------
 # Learning
 
 ## People
@@ -50,6 +50,11 @@
 - https://paperswithcode.com/sota
 - https://research.google/blog
 
+
+
+
+-------------------------------------
+
 # Philosophy
 
 ## History-of-AI
@@ -70,6 +75,9 @@
 - [Short letter to my 11-year-old-self](https://scottaaronson.blog/?p=6919)
 - [Tinker Story by Richard Ngo / Asimov Press](https://www.asimov.press/p/tinker)
 - [Dario Amodei - Machines of Loving Grace](https://darioamodei.com/machines-of-loving-grace)
+
+
+
 
 -----------------------------
 ## Generative-AI
