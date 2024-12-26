@@ -71,7 +71,8 @@
 
 ### Transformers
 - https://towardsdatascience.com/understanding-llms-from-scratch-using-middle-school-math-e602d27ec876
-- https://github.com/rasbt/LLMs-from-scratch
+- [GIT - LLMs From Scratch](https://github.com/rasbt/LLMs-from-scratch)
+- [GIT - LLM Course](https://github.com/mlabonne/llm-course)
 
 
 ### Prompt-Writing
