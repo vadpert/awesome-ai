@@ -31,6 +31,8 @@
 - https://x.com/aimodelsfyi
 - https://press.airstreet.com/
 
+- [alphasignal.ai - newsletter](https://alphasignal.ai/)
+
 
 # AI-Learning
 - https://huggingface.co/learn
@@ -140,6 +142,9 @@
 ## Frameworks
 - Optimizing inference proxy for LLMs - https://github.com/codelion/optillm
 
+## Platforms
+- https://lightning.ai/studios?section=blogs
+
 
 ## Features
 1. Chain-of-Code		-	Implements a chain of code approach that combines CoT with code execution and LLM based code simulation
@@ -174,7 +179,10 @@
 - [Patched RTC: evaluating LLMs for diverse software development tasks](https://arxiv.org/abs/2407.16557) - [Implementation](https://github.com/codelion/optillm/blob/main/optillm/rto.py)
 
 
-
+### Fine-Tuning
+- [ModernBert](https://www.answer.ai/posts/2024-12-19-modernbert.html)
+- [sentence-transformer/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) - This is a sentence-transformers model: It maps sentences & paragraphs to a 384 dimensional dense vector space and can be used for tasks like clustering or semantic search.
+- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://huggingface.co/papers/1810.04805) - 2018
 
 
 ### Notes
