@@ -3,12 +3,14 @@
 > Carefully curated list of AI research
 
 # Table of Contents
-- [People](#People)
-- [Blogs](#Blogs)
-- [AI Learning](#AI-Learning)
-- [Research Papers](#Research-Papers)
-- [History of AI](#History-of-AI)
-- [Future-of-AI](#Future-of-AI)
+- [Learning]
+   - [People](#People)
+   - [Blogs](#Blogs)
+   - [AI Learning](#AI-Learning)
+   - [Research Papers](#Research-Papers)
+- [Philosophy]
+   - [History of AI](#History-of-AI)
+   - [Future-of-AI](#Future-of-AI)
 - [Generative-AI](#Generative-AI)
    - [Overview](##Overview)
    - [Transformers](##Transformers)
@@ -16,7 +18,8 @@
    - [Prompt-Algorithms](#Prompt-Algorithms)
    - [Retrieval](#Retrieval)
    - [Reasoning](#Reasoning)
-- [Cognitive-Architecture](#Cognitive-Architecture)
+- [Engineering]
+   - [Cognitive-Architecture](#Cognitive-Architecture)
 
 
 # People
