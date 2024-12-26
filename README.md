@@ -119,11 +119,14 @@
 - The Surprising Effectiveness of Test-Time Training for Abstract Reasoning - https://ekinakyurek.github.io/papers/ttt.pdf
 
 #### classical-planning
-   - Tree of Thoughts (Yao et al., 2023)
-   - RAP (Hao et al., 2023)
-   - Monte Carlo Tree Search (MCTS; Browne et al., 2012)
-   - Breadth First Search | Depth First Search
-   - implementing tree search to mitigate myopia induced by autoregressive generation (Yao et al., 2023; Hao et al., 2023).
+
+| Type | Notes |
+| Tree of Thoughts | (Yao et al., 2023) |
+| RAP | (Hao et al., 2023) |
+| Monte Carlo Tree Search | (MCTS; Browne et al., 2012) - [Monte Carlo Tree Search – beginners guide](https://int8.io/monte-carlo-tree-search-beginners-guide/)
+| Graph Search | |
+
+- implementing tree search to mitigate myopia induced by autoregressive generation (Yao et al., 2023; Hao et al., 2023).
 
 #### o3
 - AlphaZero-style Monte-Carlo tree search; the search is presumably guided by some kind of evaluator model.
