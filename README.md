@@ -33,6 +33,7 @@
 
 - [alphasignal.ai - newsletter](https://alphasignal.ai/)
 
+- [Twitter TheAlphaSignal](https://x.com/TheAlphaSignal)
 
 # AI-Learning
 - https://huggingface.co/learn
