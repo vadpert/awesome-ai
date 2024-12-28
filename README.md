@@ -162,7 +162,8 @@
    - https://aiagentsdirectory.com/landscape
    - Microsoft Magentic One - https://github.com/microsoft/autogen/blob/main/python/packages/autogen-magentic-one/src/autogen_magentic_one/agents/orchestrator_prompts.py
 - Agent UI
-   - [Rivet Agent UI](https://rivet.ironcladapp.com/)
+   - [Rivet UI](https://rivet.ironcladapp.com/)
+   - [Vellum](https://www.vellum.ai/)
 
 
 
