@@ -138,6 +138,9 @@
 
 - The Surprising Effectiveness of Test-Time Training for Abstract Reasoning - https://ekinakyurek.github.io/papers/ttt.pdf
 
+- o3 = AlphaZero-style Monte-Carlo tree search; the search is presumably guided by some kind of evaluator model.
+
+
 #### classical-planning
 
 | Type | Notes |
@@ -149,13 +152,18 @@
 
 - implementing tree search to mitigate myopia induced by autoregressive generation (Yao et al., 2023; Hao et al., 2023).
 
-#### Multi-Agent
-- CrewAI, Autogen, LangGraph, LlamaIndex Workflows, OpenAI Swarm, Vectara Agentic, Phi Agents, Haystack Agents
-https://aiagentsdirectory.com/landscape
-- Microsoft Magentic One - https://github.com/microsoft/autogen/blob/main/python/packages/autogen-magentic-one/src/autogen_magentic_one/agents/orchestrator_prompts.py
 
-#### Notes
-- o3 = AlphaZero-style Monte-Carlo tree search; the search is presumably guided by some kind of evaluator model.
+
+#### Multi-Agent
+- Learning Agents
+   - [Anthropic Building Effective Agents](https://www.anthropic.com/research/building-effective-agents)
+- Agent Frameworks
+   - CrewAI, Autogen, LangGraph, LlamaIndex Workflows, OpenAI Swarm, Vectara Agentic, Phi Agents, Haystack Agents
+   - https://aiagentsdirectory.com/landscape
+   - Microsoft Magentic One - https://github.com/microsoft/autogen/blob/main/python/packages/autogen-magentic-one/src/autogen_magentic_one/agents/orchestrator_prompts.py
+- Agent UI
+   - [Rivet Agent UI](https://rivet.ironcladapp.com/)
+
 
 
 ## Frameworks & Platforms
