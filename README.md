@@ -88,8 +88,8 @@
 - [GIT - LLM Course](https://github.com/mlabonne/llm-course)
 
 ### LLM Research Papers
-- Llama3 Herd of Models - https://arxiv.org/pdf/2407.21783
-
+- [Llama3 Herd of Models](https://arxiv.org/pdf/2407.21783)
+- [Scaling Laws for Neural Language Models](https://arxiv.org/pdf/2001.08361)
 
 ### Prompt-Writing
 - https://www.reddit.com/r/ClaudeAI/comments/1e39tvj/sonnet_35_coding_system_prompt_v2_with_explainer/
@@ -221,9 +221,13 @@ Source: https://arxiv.org/abs/2405.12250 (Transformer is secretly linear)
 Google has introduced a popular new method for decoding intermediate neurons. Patchscopes takes a hidden representation for LLM and ‘patching’ it to a different prompt. This prompt is used to generate a description or answer a question, revealing the encoded information.
 
 
+
+
 -------------------------------------------
 ### Metrics
 - https://medium.com/data-science-at-microsoft/evaluating-llm-systems-metrics-challenges-and-best-practices-664ac25be7e5
+
+
 
 
 
@@ -231,6 +235,8 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 ### OCR
 - https://microsoft.github.io/OmniParser - screen parsing
 - https://yolov8.com/ - object detection / vision model
+
+
 
 
 -------------------------------------------
@@ -252,22 +258,24 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 - NMSLIB (Non-Metric Space Library)
 
 
-## Code Fixing
+-----------------------------
+## Coding
+
+### Code Fixing
 - SWE-bench (resolve github issues) - https://www.swebench.com/
 - Globant-Code-Fixer-Agent - https://ai.globant.com/wp-content/uploads/2024/11/Whitepaper-Globant-Code-Fixer-Agent.pdf
 
 ### Abstract Syntax Tree Libraries (AST)
 - https://tree-sitter.github.io/tree-sitter/
 
+### Process / Workflow
+- (UX) https://excalidraw.com/
+- (Amazon State Language) https://states-language.net/
+- Function as a Service (FaaS) paradigm
+
 ### Security
 - Sybil resistance
 - 
-
-#### Legal
-- https://github.com/HazyResearch/legalbench/blob/main/tasks/definition_extraction/README.md
-- Contract Understanding Atticus Dataset (CUAD) - https://www.atticusprojectai.org/cuad
-
-
 
 
 ### Interpretability
@@ -281,17 +289,19 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 - - https://www.anthropic.com/news/analysis-tool
 
 
--------------------------------------------
-## Reinforcement Learning
 
-### Intro
+
+-------------------------------------------
+## Reinforcement-Learning
+
+### Learning-RL
 - (Reinforcement Learning: An Introduction 2018) [https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf]
 - https://lilianweng.github.io/posts/2018-02-19-rl-overview/
 - http://incompleteideas.net/book/RLbook2020.pdf
 - https://huggingface.co/learn/deep-rl-course/en/unit0/introduction
 
 
-### Approaches
+### Types-of-RL
 1. Imitation Learning (IL)
 1. deep reinforcement learning (RL)
 1. Monte Carlo tree search
@@ -306,7 +316,7 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 
 
 -------------------------------------------
-## Traditional AI
+## Traditional-AI
 
 ### Regression (continous variables)
 1. Linear Regression
@@ -355,9 +365,12 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 1. Long Short Term Memory (LSTM)
 
 
+
 -----------------------------
 ## Optimization
 - https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/ -  FunSearch works by pairing a pre-trained LLM, whose goal is to provide creative solutions in the form of computer code, with an automated “evaluator”, which guards against hallucinations and incorrect ideas. By iterating back-and-forth between these two components, initial solutions “evolve” into new knowledge. The system searches for “functions” written in computer code; hence the name FunSearch.
+
+
 
 -----------------------------
 
@@ -365,15 +378,26 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 - [Multi-armed bandit](http://www.com/) - Official website.
 
 
-## Process / Workflow
-- (UX) https://excalidraw.com/
-- (Amazon State Language) https://states-language.net/
-- Function as a Service (FaaS) paradigm
+-----------------------------
 
+## Rough Path Signatures
+
+-----------------------------
+
+# Graph
+1. Leiden Algorith
+2. Laplacian / Heat Diffusion Graphs
+
+
+-----------------------------
 
 ### Enterprise Automation (RPA) Robotic Process Automation
 - https://arxiv.org/abs/2405.03710 (ECLAIR) - ECLAIR
 - https://arxiv.org/abs/2404.13050 (FlowMind) - JPM
+
+### Legal
+- https://github.com/HazyResearch/legalbench/blob/main/tasks/definition_extraction/README.md
+- Contract Understanding Atticus Dataset (CUAD) - https://www.atticusprojectai.org/cuad
 
 
 # Document Parsing
@@ -391,13 +415,6 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 1. https://huggingface.co/enhanceaiteam/
 1. Flux Model - https://blackforestlabs.io/flux-1/
 
-
-## Rough Path Signatures
-
-
-# Graph
-1. Leiden Algorith
-2. Laplacian / Heat Diffusion Graphs
 
 
 # Robotics
