@@ -3,6 +3,7 @@
 > Carefully curated list of AI research
 
 # Table of Contents
+- [TODO)(#TODO)
 - [Learning]
    - [People](#People)
    - [Blogs](#Blogs)
@@ -23,6 +24,18 @@
 
 
 -------------------------------------
+# TODO
+- Gradient Descent
+- Dictionary Learning
+- Sparse Auto Encoders
+- One Layer Model
+- Superposition
+- inference time compute
+- reinforcement learning
+- Monte Carlo Search
+- inference / speculative decoding
+
+-------------------------------------
 # Learning
 
 ## People
@@ -30,7 +43,9 @@
 - Noam Brown
 - Ilge Akkaya
 - Hunter Lightman
-- Leopold Aschenbrenner - https://www.forourposterity.com/
+- Leopold Aschenbrenner - https://www.forourposterity.com/   https://x.com/leopoldasch
+- Amanda Askell - Philosopher/Ethics - https://x.com/AmandaAskell
+- 
 
 ## Blogs
 - https://www.interconnects.ai/
