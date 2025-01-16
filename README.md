@@ -288,7 +288,7 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 ## Coding
 
 ### Developer Experience (DevX)
-- https://www.microsoft.com/en-us/research/group/developer-experience-lab/
+- [https://www.microsoft.com/en-us/research/group/developer-experience-lab/](https://www.microsoft.com/en-us/research/group/developer-experience-lab/publications/)
 
 ### Code Fixing
 - SWE-bench (resolve github issues) - https://www.swebench.com/
