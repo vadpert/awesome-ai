@@ -56,6 +56,7 @@
 
 - [Twitter TheAlphaSignal](https://x.com/TheAlphaSignal)
 
+
 ## AI-Learning
 - https://huggingface.co/learn
 
@@ -64,6 +65,7 @@
 - [Ahead of AI - LLM Research Papers: The 2024 List](https://magazine.sebastianraschka.com/p/llm-research-papers-the-2024-list)
 - https://paperswithcode.com/sota
 - https://research.google/blog
+
 
 
 
@@ -284,6 +286,9 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 
 -----------------------------
 ## Coding
+
+### Developer Experience (DevX)
+- https://www.microsoft.com/en-us/research/group/developer-experience-lab/
 
 ### Code Fixing
 - SWE-bench (resolve github issues) - https://www.swebench.com/
