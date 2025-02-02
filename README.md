@@ -116,7 +116,7 @@
 - Writer Prompting Strategies - https://dev.writer.com/home/prompting
 
 
-### Prompt-Algorithms
+### Prompt-Algorithms 
 
 | Type | Notes |
 |-|-|
@@ -169,7 +169,19 @@
 
 - implementing tree search to mitigate myopia induced by autoregressive generation (Yao et al., 2023; Hao et al., 2023).
 
+#### Inference Time Compute
+- Diverse Verifier Tree Search (DVTS) 
+- Compute-optimal scaling
+- Repeated sampling and then taking a majority vote - https://arxiv.org/abs/2203.11171
+- \archon: An Architecture Search Framework for Inference-Time Techniques - https://arxiv.org/html/2409.15254v1
+-    https://github.com/ScalingIntelligence/Archon
+- metareasoning methods can facilitate runtime decision making by
+ dynamically allocating computing resources across different generative processes and their combinations.
+ Specifically, these methods can incorporate considerations such as formulating and testing chains of
+ thought, assessing confidence levels, estimating success likelihoods, and implementing control strategies
+ to guide lower-level token-generation processes.
 
+- 
 
 #### Multi-Agent
 - Learning Agents
@@ -329,6 +341,7 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 - http://incompleteideas.net/book/RLbook2020.pdf
 - https://huggingface.co/learn/deep-rl-course/en/unit0/introduction
 
+- https://github.com/VachanVY/Reinforcement-Learning
 
 ### Types-of-RL
 1. Imitation Learning (IL)
