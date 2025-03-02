@@ -39,13 +39,21 @@
 # Learning
 
 ## People
-- Me https://finitereason.substack.com/
+- Me
+   - https://finitereason.substack.com/
 - Noam Brown
+   - 
 - Ilge Akkaya
+   - 
 - Hunter Lightman
-- Leopold Aschenbrenner - https://www.forourposterity.com/   https://x.com/leopoldasch
-- Amanda Askell - Philosopher/Ethics - https://x.com/AmandaAskell
-- 
+   - 
+- Leopold Aschenbrenner
+   - https://www.forourposterity.com/
+   - https://x.com/leopoldasch
+- Amanda Askell - Philosopher/Ethics
+   - https://x.com/AmandaAskell
+- Ilya Sutskever
+   - https://www.youtube.com/watch?v=1yvBqasHLZs
 
 ## Blogs
 - https://www.interconnects.ai/
