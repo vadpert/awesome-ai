@@ -344,12 +344,15 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 ## Reinforcement-Learning
 
 ### Learning-RL
+- https://spinningup.openai.com/en/latest/user/introduction.html
+
 - (Reinforcement Learning: An Introduction 2018) [https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf]
 - https://lilianweng.github.io/posts/2018-02-19-rl-overview/
 - http://incompleteideas.net/book/RLbook2020.pdf
 - https://huggingface.co/learn/deep-rl-course/en/unit0/introduction
 
 - https://github.com/VachanVY/Reinforcement-Learning
+
 
 ### Types-of-RL
 1. Imitation Learning (IL)
@@ -362,6 +365,10 @@ Google has introduced a popular new method for decoding intermediate neurons. Pa
 1.  Model Based
 1.  Transformer Based
 
+### RL Tools
+- https://github.com/rlworkgroup/garage
+- https://github.com/openai/baselines
+- https://github.com/ray-project/ray
 
 
 
