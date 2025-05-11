@@ -140,6 +140,14 @@
 
 - ColPali: Efficient Document Retrieval with Vision Language Models - https://github.com/illuin-tech/colpali
 
+**advisor-actor-rater** 
+Prompt the model to analyze the present situation and generate advice.
+Have the model generate 6 possible actions it could take next (3 of which are generated with the advice in context, and 3 of which are not).
+Tell the model to rate each of the 6 possible actions it proposed.
+Execute the highest-rated action and add it to the agent’s transcript.
+Advising, acting, and rating are implemented as tools provided to the model
+
+
 
 ### Reasoning
 
