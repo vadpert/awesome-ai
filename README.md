@@ -54,6 +54,10 @@
    - https://x.com/AmandaAskell
 - Ilya Sutskever
    - https://www.youtube.com/watch?v=1yvBqasHLZs
+   - 30 papers to read:
+      - https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE
+      - https://github.com/dzyim/ilya-sutskever-recommended-reading
+      - https://aman.ai/primers/ai/top-30-papers/
 
 ## Blogs
 - https://www.interconnects.ai/
@@ -67,7 +71,9 @@
 
 ## AI-Learning
 - https://huggingface.co/learn
-
+- [the art of artificial intelligence - one concept at a time](https://aman.ai/)
+   - https://aman.ai/primers/ai/
+   - 
 
 ## Research-Papers
 - [Ahead of AI - LLM Research Papers: The 2024 List](https://magazine.sebastianraschka.com/p/llm-research-papers-the-2024-list)
