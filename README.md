@@ -107,7 +107,8 @@
 - [Tinker Story by Richard Ngo / Asimov Press](https://www.asimov.press/p/tinker)
 - [Dario Amodei - Machines of Loving Grace](https://darioamodei.com/machines-of-loving-grace)
 
-
+## 
+- Personal Universes: A Solution to the Multi-Agent Value Alignment Problem - Roman V. Yampolskiy - https://arxiv.org/abs/1901.01851
 
 
 -----------------------------
