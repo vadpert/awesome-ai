@@ -9,7 +9,7 @@
    - [Blogs](#Blogs)
    - [AI Learning](#AI-Learning)
    - [Research Papers](#Research-Papers)
-- [Philosophy]
+- [Philosophy](#Philosophy)
    - [History of AI](#History-of-AI)
    - [Future-of-AI](#Future-of-AI)
 - [Generative-AI](#Generative-AI)
