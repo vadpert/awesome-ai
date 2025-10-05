@@ -109,7 +109,7 @@
 
 ## 
 - Personal Universes: A Solution to the Multi-Agent Value Alignment Problem - Roman V. Yampolskiy - https://arxiv.org/abs/1901.01851
-
+- https://www.researchgate.net/publication/364811408_How_to_Hack_the_Simulation
 
 -----------------------------
 ## Generative-AI
