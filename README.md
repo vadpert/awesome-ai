@@ -69,6 +69,7 @@
 - [Twitter TheAlphaSignal](https://x.com/TheAlphaSignal)
 - [dwarkesh](https://www.dwarkesh.com/)
 
+- https://substack.com/leaderboard/4/rising 
 
 ## AI-Learning
 - https://huggingface.co/learn
