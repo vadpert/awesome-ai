@@ -61,7 +61,6 @@
 
 ## Blogs
 - https://www.interconnects.ai/
-- https://x.com/aimodelsfyi
 - https://press.airstreet.com/
 
 - [alphasignal.ai - newsletter](https://alphasignal.ai/)
@@ -69,7 +68,9 @@
 - [Twitter TheAlphaSignal](https://x.com/TheAlphaSignal)
 - [dwarkesh](https://www.dwarkesh.com/)
 
-- https://substack.com/leaderboard/4/rising 
+- https://substack.com/leaderboard/4/rising
+
+- https://www.aimodels.fyi/papers
 
 ## AI-Learning
 - https://huggingface.co/learn
