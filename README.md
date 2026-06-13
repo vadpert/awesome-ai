@@ -2,27 +2,6 @@
 
 > Carefully curated list of AI research
 
-# Table of Contents
-- [TODO)(#TODO)
-- [Learning]
-   - [People](#People)
-   - [Blogs](#Blogs)
-   - [AI Learning](#AI-Learning)
-   - [Research Papers](#Research-Papers)
-- [Philosophy](#Philosophy)
-   - [History of AI](#History-of-AI)
-   - [Future-of-AI](#Future-of-AI)
-- [Generative-AI](#Generative-AI)
-   - [Overview](##Overview)
-   - [Transformers](##Transformers)
-   - [Prompt-Writing](#Prompt-Writing)
-   - [Prompt-Algorithms](#Prompt-Algorithms)
-   - [Retrieval](#Retrieval)
-   - [Reasoning](#Reasoning)
-- Engineering
-   - [Cognitive-Architecture](#Cognitive-Architecture)
-
-
 -------------------------------------
 # TODO
 - Gradient Descent
@@ -91,6 +70,10 @@
 - abliterated
 
 
+-------------------------------------
+
+# Hacking
+- https://embracethered.com/blog/
 
 -------------------------------------
 
